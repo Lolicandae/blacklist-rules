@@ -2,7 +2,7 @@
 
 **Select your Language: English | [简体中文](README.zh-cn.md)**
 
-Please report problems or share suggestions in this repository's [Issues](https://github.com/Paloexiz/blacklist-rules/issues).
+Please report problems or share suggestions in this repository's [Issues](https://github.com/Lolicandae/blacklist-rules/issues).
 
 ## Note
 
@@ -27,10 +27,10 @@ This is a base configuration template for mihomo. It includes local proxy ports,
       <a href="mihomo.yaml">mihomo.yaml</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/client_conf/mihomo/mihomo.yaml">YAML</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo/mihomo.yaml">YAML</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/client_conf/mihomo/mihomo.yaml">YAML</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo/mihomo.yaml">YAML</a>
     </td>
   </tr>
 </table>

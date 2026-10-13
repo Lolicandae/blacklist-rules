@@ -6,8 +6,8 @@
 
  **If you would like to use `anonymityservice_domainonly.json`, you can get it with following links:**
 
-- Original: [View or Download](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
-- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
+- Original: [View or Download](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
+- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
 
 ### Note
 
@@ -25,7 +25,7 @@ This file uses version 3 of the JSON rule-set format. `Safe Browse` in the examp
         "type": "remote",
         "tag": "blacklistrules-security_domain",
         "format": "source",
-        "url": "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json",
+        "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json",
         "update_interval": "24h"
       }
     ],
@@ -45,8 +45,8 @@ This file uses version 3 of the JSON rule-set format. `Safe Browse` in the examp
 
  **If you would like to use `anonymityservice_processnameonly.json`, you can get it with following links:**
 
-- Original: [View or Download](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
-- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
+- Original: [View or Download](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
+- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
 
 ### Note
 
@@ -66,7 +66,7 @@ Source `PROCESS-NAME,...` entries become `process_name`. Matching requires local
         "type": "remote",
         "tag": "blacklistrules-security_process",
         "format": "source",
-        "url": "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json",
+        "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json",
         "update_interval": "24h"
       }
     ],

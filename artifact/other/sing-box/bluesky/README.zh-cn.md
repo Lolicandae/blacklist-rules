@@ -6,8 +6,8 @@
 
  **如果您需要使用 `bluesky.json` 文件，您可以通过如下超链接进行获取：**
 
-- 原始链接：[查看或下载](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/other/sing-box/bluesky/bluesky.json)
-- 镜像链接（可能会有24小时的延迟）：[查看或下载](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/other/sing-box/bluesky/bluesky.json)
+- 原始链接：[查看或下载](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/other/sing-box/bluesky/bluesky.json)
+- 镜像链接（可能会有24小时的延迟）：[查看或下载](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/other/sing-box/bluesky/bluesky.json)
 
 ### 注意事项
 
@@ -25,7 +25,7 @@
         "type": "remote",
         "tag": "bluesky",
         "format": "source",
-        "url": "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/other/sing-box/bluesky/bluesky.json",
+        "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/other/sing-box/bluesky/bluesky.json",
         "update_interval": "24h"
       }
     ],

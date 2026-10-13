@@ -6,8 +6,8 @@
 
  **If you would like to use `blockeddomains_nogame_domainonly.json`, you can get it with following links:**
 
-- Original: [View or Download](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json)
-- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json)
+- Original: [View or Download](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json)
+- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json)
 
 ### Note
 
@@ -25,7 +25,7 @@ This file uses version 3 of the JSON rule-set format. `Proxy` in the example is 
         "type": "remote",
         "tag": "blacklistrules-unlock_nogame",
         "format": "source",
-        "url": "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json",
+        "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json",
         "update_interval": "24h"
       }
     ],
@@ -45,8 +45,8 @@ This file uses version 3 of the JSON rule-set format. `Proxy` in the example is 
 
  **If you would like to use `blockedgames_domainonly.json`, you can get it with following links:**
 
-- Original: [View or Download](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json)
-- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json)
+- Original: [View or Download](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json)
+- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json)
 
 ### Note
 
@@ -64,7 +64,7 @@ This file uses version 3 of the JSON rule-set format. `Game Unlocking` in the ex
         "type": "remote",
         "tag": "blacklistrules-unlock_game",
         "format": "source",
-        "url": "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json",
+        "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json",
         "update_interval": "24h"
       }
     ],

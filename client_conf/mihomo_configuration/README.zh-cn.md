@@ -2,7 +2,7 @@
 
 **语言选择：[English](README.md) | 简体中文**
 
-如果发现问题或有改进建议，请在本仓库的 [Issues](https://github.com/Paloexiz/blacklist-rules/issues) 中反馈。
+如果发现问题或有改进建议，请在本仓库的 [Issues](https://github.com/Lolicandae/blacklist-rules/issues) 中反馈。
 
 ## 说明
 
@@ -31,10 +31,10 @@
       <a href="mihomo_configuration.yaml">mihomo_configuration.yaml</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
     </td>
   </tr>
 </table>

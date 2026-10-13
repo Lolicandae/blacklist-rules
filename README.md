@@ -58,90 +58,90 @@ Domain rules are available as YAML and MRS. For Mihomo, use MRS with `format: mr
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/common/clash">CustomRules Collection</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/common/clash">CustomRules Collection</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.yaml">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.yaml">Domain Only</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.mrs">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.mrs">Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.yaml">Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.yaml">Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.mrs">Domain Only</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/boost/clash">Common-Boost</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">No game & Domain Only</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">Game Only & Domain Only</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">No game & Domain Only</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">Game Only & Domain Only</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">No game & Domain Only</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">Game Only & Domain Only</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">No game & Domain Only</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">Game Only & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.mrs">Domain Only</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/security/clash">Common-Security</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/boost/clash">Common-Boost</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">No game & Domain Only</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">Process Name Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">Game Only & Domain Only</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">Domain Only</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">No game & Domain Only</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">Process Name Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">Game Only & Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">No game & Domain Only</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">Game Only & Domain Only</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">No game & Domain Only</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">Game Only & Domain Only</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/unlock/clash">Common-Unlock</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/security/clash">Common-Security</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">No game & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">Domain Only</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">Game Only & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">Process Name Only</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">No game & Domain Only</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">Game Only & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">No game & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">Domain Only</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">Game Only & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">Process Name Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">No game & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">Domain Only</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/unlock/clash">Common-Unlock</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">No game & Domain Only</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">Game Only & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">Game Only & Domain Only</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">No game & Domain Only</a>
+      <br>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">Game Only & Domain Only</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">No game & Domain Only</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">Game Only & Domain Only</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">No game & Domain Only</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">Game Only & Domain Only</a>
     </td>
   </tr>
 </table>
@@ -162,58 +162,58 @@ Domain rules are available as YAML and MRS. For Mihomo, use MRS with `format: mr
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/common/sing-box">CustomRules Collection</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/common/sing-box">CustomRules Collection</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/sing-box/blacklistrules_domainonly.json">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/sing-box/blacklistrules_domainonly.json">Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/sing-box/blacklistrules_domainonly.json">Domain Only</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/boost/sing-box">Common-Boost</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">No game & Domain Only</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">Game Only & Domain Only</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">No game & Domain Only</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">Game Only & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/sing-box/blacklistrules_domainonly.json">Domain Only</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/security/sing-box">Common-Security</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/boost/sing-box">Common-Boost</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">No game & Domain Only</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">Process Name Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">Game Only & Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">No game & Domain Only</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">Process Name Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">Game Only & Domain Only</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/unlock/sing-box">Common-Unlock</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/security/sing-box">Common-Security</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">No game & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">Domain Only</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">Game Only & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">Process Name Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">No game & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">Domain Only</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">Game Only & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">Process Name Only</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/unlock/sing-box">Common-Unlock</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">No game & Domain Only</a>
+      <br>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">Game Only & Domain Only</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">No game & Domain Only</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">Game Only & Domain Only</a>
     </td>
   </tr>
 </table>
@@ -234,58 +234,58 @@ Domain rules are available as YAML and MRS. For Mihomo, use MRS with `format: mr
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/common/surge">CustomRules Collection</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/common/surge">CustomRules Collection</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/surge/blacklistrules_domainonly.list">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/surge/blacklistrules_domainonly.list">Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list">Domain Only</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/boost/surge">Common-Boost</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">No game & Domain Only</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">Game Only & Domain Only</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">No game & Domain Only</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">Game Only & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list">Domain Only</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/security/surge">Common-Security</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/boost/surge">Common-Boost</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_domainonly.list">Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">No game & Domain Only</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_processnameonly.list">Process Name Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">Game Only & Domain Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_domainonly.list">Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">No game & Domain Only</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_processnameonly.list">Process Name Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">Game Only & Domain Only</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/unlock/surge">Common-Unlock</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/security/surge">Common-Security</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">No game & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_domainonly.list">Domain Only</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/surge/blockedgames_domainonly.list">Game Only & Domain Only</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_processnameonly.list">Process Name Only</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">No game & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_domainonly.list">Domain Only</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/surge/blockedgames_domainonly.list">Game Only & Domain Only</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_processnameonly.list">Process Name Only</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/unlock/surge">Common-Unlock</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">No game & Domain Only</a>
+      <br>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/surge/blockedgames_domainonly.list">Game Only & Domain Only</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">No game & Domain Only</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/surge/blockedgames_domainonly.list">Game Only & Domain Only</a>
     </td>
   </tr>
 </table>

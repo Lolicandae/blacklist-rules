@@ -6,8 +6,8 @@
 
  **If you would like to use `blacklistrules_domainonly.list`, you can get it with following links:**
 
-- Original: [View or Download](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/surge/blacklistrules_domainonly.list)
-- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list)
+- Original: [View or Download](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/surge/blacklistrules_domainonly.list)
+- CDN(maybe 24-hour-delaying sync): [View or Download](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list)
 
 ### Note
 
@@ -18,5 +18,5 @@
 ```list
 [Rule]
 # > blacklistrules
-DOMAIN-SET, https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list, Proxy, update-interval=86400
+DOMAIN-SET, https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list, Proxy, update-interval=86400
 ```

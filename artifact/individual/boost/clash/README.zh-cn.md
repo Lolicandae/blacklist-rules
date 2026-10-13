@@ -6,8 +6,8 @@
 
  **如果您需要使用 `slowdomains_nogame_domainonly.yaml` 文件，您可以通过如下超链接进行获取：**
 
-- 原始链接：[YAML](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml) · [MRS](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs)
-- 镜像链接（可能会有24小时的延迟）：[YAML](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml) · [MRS](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs)
+- 原始链接：[YAML](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml) · [MRS](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs)
+- 镜像链接（可能会有24小时的延迟）：[YAML](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml) · [MRS](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs)
 
 ### 注意事项
 
@@ -25,7 +25,7 @@ rule-providers:
       interval: 86400,
       format: yaml,
       behavior: domain,
-      url: "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml",
+      url: "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml",
       path: "./ruleset/Paloexiz/slowdomains_nogame_domainonly.yaml",
     }
 ```
@@ -34,8 +34,8 @@ rule-providers:
 
  **如果您需要使用 `slowdomains_gameonly_domainonly.yaml` 文件，您可以通过如下超链接进行获取：**
 
-- 原始链接：[YAML](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml) · [MRS](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs)
-- 镜像链接（可能会有24小时的延迟）：[YAML](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml) · [MRS](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs)
+- 原始链接：[YAML](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml) · [MRS](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs)
+- 镜像链接（可能会有24小时的延迟）：[YAML](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml) · [MRS](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs)
 
 ### 注意事项
 
@@ -53,7 +53,7 @@ rule-providers:
       interval: 86400,
       format: yaml,
       behavior: domain,
-      url: "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml",
+      url: "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml",
       path: "./ruleset/Paloexiz/slowdomains_gameonly_domainonly.yaml",
     }
 ```

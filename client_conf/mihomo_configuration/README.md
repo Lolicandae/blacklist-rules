@@ -2,7 +2,7 @@
 
 **Select your Language: English | [简体中文](README.zh-cn.md)**
 
-Please report problems or share suggestions in this repository's [Issues](https://github.com/Paloexiz/blacklist-rules/issues).
+Please report problems or share suggestions in this repository's [Issues](https://github.com/Lolicandae/blacklist-rules/issues).
 
 ## Note
 
@@ -31,10 +31,10 @@ This file is mainly designed to proxy these following:
       <a href="mihomo_configuration.yaml">mihomo_configuration.yaml</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
     </td>
   </tr>
 </table>

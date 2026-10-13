@@ -40,193 +40,193 @@
   </tr>
   <tr align="center">
     <td>adrules</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/cats-team/adrules/adrules_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/cats-team/adrules/adrules_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/cats-team/adrules/adrules_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/cats-team/adrules/adrules_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>private</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/private/private_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/private/private_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/private/private_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/private/private_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/private/private_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/private/private_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/private/private_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/private/private_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Steam</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/steam/steam_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/steam/steam_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/steam/steam_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/steam/steam_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Copilot</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>google-gemini</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/google-gemini/google-gemini_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/google-gemini/google-gemini_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/google-gemini/google-gemini_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/google-gemini/google-gemini_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>adobe-activation</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/adobe-activation/adobe-activation_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/adobe-activation/adobe-activation_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/adobe-activation/adobe-activation_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/adobe-activation/adobe-activation_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>googlefcm</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/googlefcm/googlefcm_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/googlefcm/googlefcm_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/googlefcm/googlefcm_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/googlefcm/googlefcm_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>z-library</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/z-library/z-library_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/z-library/z-library_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/z-library/z-library_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/z-library/z-library_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>linuxdo</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/linuxdo/linuxdo_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/linuxdo/linuxdo_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/linuxdo/linuxdo_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/linuxdo/linuxdo_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>twitter</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/twitter/twitter_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/twitter/twitter_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/twitter/twitter_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/twitter/twitter_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/twitter/twitter_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/twitter/twitter_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/twitter/twitter_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/twitter/twitter_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>github</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/github/github_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/github/github_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/github/github_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/github/github_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>gitlab</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/gitlab/gitlab_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/gitlab/gitlab_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/gitlab/gitlab_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/gitlab/gitlab_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>onedrive</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/onedrive/onedrive_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/onedrive/onedrive_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/onedrive/onedrive_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/onedrive/onedrive_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Microsoft</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/microsoft/microsoft_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/microsoft/microsoft_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/microsoft/microsoft_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/microsoft/microsoft_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>openai</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/openai/openai_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/openai/openai_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/openai/openai_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/openai/openai_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>anthropic</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/anthropic/anthropic_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/anthropic/anthropic_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/anthropic/anthropic_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/anthropic/anthropic_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>discord</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/discord/discord_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/discord/discord_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/discord/discord_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/discord/discord_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>aliyun</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/aliyun/aliyun_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/aliyun/aliyun_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/aliyun/aliyun_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/aliyun/aliyun_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>cloudflare</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/cloudflare/cloudflare_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/cloudflare/cloudflare_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/cloudflare/cloudflare_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/cloudflare/cloudflare_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>docker</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/docker/docker_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/docker/docker_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/docker/docker_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/docker/docker_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>homebrew</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/homebrew/homebrew_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/homebrew/homebrew_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/homebrew/homebrew_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/homebrew/homebrew_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>python</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/python/python_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/python/python_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/python/python_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/python/python_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>icloud</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/icloud/icloud_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/icloud/icloud_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/icloud/icloud_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/icloud/icloud_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>apple</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/apple/apple_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/apple/apple_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/apple/apple_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/apple/apple_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>youtube</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/youtube/youtube_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/youtube/youtube_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/youtube/youtube_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/youtube/youtube_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Google</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/google/google_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/google/google_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/google/google_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/google/google_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/google/google_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/google/google_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/google/google_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/google/google_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>twitch</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/twitch/twitch_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/twitch/twitch_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/twitch/twitch_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/twitch/twitch_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>niconico</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/niconico/niconico_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/niconico/niconico_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/niconico/niconico_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/niconico/niconico_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Pixiv</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/pixiv/pixiv_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/pixiv/pixiv_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/pixiv/pixiv_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/pixiv/pixiv_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>netflix</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/netflix/netflix_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/netflix/netflix_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/netflix/netflix_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/netflix/netflix_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/netflix/netflix_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/netflix/netflix_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/netflix/netflix_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/netflix/netflix_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>disney</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/disney/disney_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/disney/disney_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/disney/disney_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/disney/disney_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>bilibili</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/bilibili/bilibili_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/bilibili/bilibili_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/bilibili/bilibili_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/bilibili/bilibili_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>spotify</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/spotify/spotify_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/spotify/spotify_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/spotify/spotify_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/spotify/spotify_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>dmm</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/dmm/dmm_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/dmm/dmm_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/dmm/dmm_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/dmm/dmm_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Telegram</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/telegram/telegram_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/peiyingyao/telegram/telegram_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/telegram/telegram_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/peiyingyao/telegram/telegram_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/telegram/telegram_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/telegram/telegram_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/telegram/telegram_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/telegram/telegram_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>gfw</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/gfw/gfw_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/gfw/gfw_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/gfw/gfw_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/gfw/gfw_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>applications</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/loyalsoldier/applications/applications_process.json">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/loyalsoldier/applications/applications_process.json">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/loyalsoldier/applications/applications_process.json">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/loyalsoldier/applications/applications_process.json">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>cn</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/sing-box/metacubex/cn/cn_domain.json">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/sing-box/metacubex/cn/cn_domain.json">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/cn/cn_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/cn/cn_domain.json">仅域名</a></td>
   </tr>
 </table>
 
@@ -244,193 +244,193 @@ MRS、YAML 均放在 `clash/作者/服务/` 下，例如 `clash/peiyingyao/steam
   </tr>
   <tr align="center">
     <td>adrules</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/cats-team/adrules/adrules_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/cats-team/adrules/adrules_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/cats-team/adrules/adrules_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/cats-team/adrules/adrules_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/cats-team/adrules/adrules_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/cats-team/adrules/adrules_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/cats-team/adrules/adrules_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/cats-team/adrules/adrules_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>private</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/private/private_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/private/private_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/private/private_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/private/private_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/private/private_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/private/private_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/private/private_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/private/private_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/private/private_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/private/private_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/private/private_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/private/private_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/private/private_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/private/private_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/private/private_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/private/private_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Steam</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Copilot</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/copilot/copilot_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/copilot/copilot_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>google-gemini</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/google-gemini/google-gemini_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/google-gemini/google-gemini_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/google-gemini/google-gemini_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/google-gemini/google-gemini_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/google-gemini/google-gemini_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/google-gemini/google-gemini_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/google-gemini/google-gemini_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/google-gemini/google-gemini_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>adobe-activation</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/adobe-activation/adobe-activation_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>googlefcm</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/googlefcm/googlefcm_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/googlefcm/googlefcm_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/googlefcm/googlefcm_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/googlefcm/googlefcm_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/googlefcm/googlefcm_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/googlefcm/googlefcm_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/googlefcm/googlefcm_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/googlefcm/googlefcm_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>z-library</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/z-library/z-library_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/z-library/z-library_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/z-library/z-library_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/z-library/z-library_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/z-library/z-library_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/z-library/z-library_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/z-library/z-library_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/z-library/z-library_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>linuxdo</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/linuxdo/linuxdo_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/linuxdo/linuxdo_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/linuxdo/linuxdo_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/linuxdo/linuxdo_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/linuxdo/linuxdo_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/linuxdo/linuxdo_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/linuxdo/linuxdo_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/linuxdo/linuxdo_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>twitter</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/twitter/twitter_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/twitter/twitter_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>github</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/github/github_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/github/github_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/github/github_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/github/github_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/github/github_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/github/github_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/github/github_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/github/github_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>gitlab</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/gitlab/gitlab_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/gitlab/gitlab_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/gitlab/gitlab_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/gitlab/gitlab_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/gitlab/gitlab_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/gitlab/gitlab_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/gitlab/gitlab_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/gitlab/gitlab_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>onedrive</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/onedrive/onedrive_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/onedrive/onedrive_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/onedrive/onedrive_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/onedrive/onedrive_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/onedrive/onedrive_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/onedrive/onedrive_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/onedrive/onedrive_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/onedrive/onedrive_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Microsoft</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/microsoft/microsoft_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/microsoft/microsoft_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/microsoft/microsoft_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/microsoft/microsoft_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/microsoft/microsoft_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/microsoft/microsoft_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/microsoft/microsoft_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/microsoft/microsoft_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>openai</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/openai/openai_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/openai/openai_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/openai/openai_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/openai/openai_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/openai/openai_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/openai/openai_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/openai/openai_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/openai/openai_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>anthropic</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/anthropic/anthropic_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/anthropic/anthropic_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/anthropic/anthropic_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/anthropic/anthropic_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/anthropic/anthropic_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/anthropic/anthropic_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/anthropic/anthropic_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/anthropic/anthropic_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>discord</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/discord/discord_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/discord/discord_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/discord/discord_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/discord/discord_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/discord/discord_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/discord/discord_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/discord/discord_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/discord/discord_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>aliyun</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/aliyun/aliyun_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/aliyun/aliyun_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/aliyun/aliyun_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/aliyun/aliyun_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/aliyun/aliyun_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/aliyun/aliyun_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/aliyun/aliyun_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/aliyun/aliyun_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>cloudflare</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/cloudflare/cloudflare_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/cloudflare/cloudflare_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/cloudflare/cloudflare_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/cloudflare/cloudflare_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/cloudflare/cloudflare_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/cloudflare/cloudflare_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/cloudflare/cloudflare_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/cloudflare/cloudflare_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>docker</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/docker/docker_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/docker/docker_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/docker/docker_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/docker/docker_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/docker/docker_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/docker/docker_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/docker/docker_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/docker/docker_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>homebrew</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/homebrew/homebrew_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/homebrew/homebrew_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/homebrew/homebrew_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/homebrew/homebrew_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/homebrew/homebrew_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/homebrew/homebrew_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/homebrew/homebrew_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/homebrew/homebrew_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>python</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/python/python_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/python/python_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/python/python_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/python/python_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/python/python_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/python/python_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/python/python_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/python/python_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>icloud</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/icloud/icloud_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/icloud/icloud_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/icloud/icloud_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/icloud/icloud_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/icloud/icloud_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/icloud/icloud_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/icloud/icloud_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/icloud/icloud_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>apple</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/apple/apple_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/apple/apple_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/apple/apple_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/apple/apple_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/apple/apple_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/apple/apple_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/apple/apple_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/apple/apple_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>youtube</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/youtube/youtube_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/youtube/youtube_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/youtube/youtube_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/youtube/youtube_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/youtube/youtube_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/youtube/youtube_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/youtube/youtube_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/youtube/youtube_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Google</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/google/google_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/google/google_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/google/google_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/google/google_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/google/google_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/google/google_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/google/google_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/google/google_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/google/google_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/google/google_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/google/google_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/google/google_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/google/google_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/google/google_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/google/google_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/google/google_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>twitch</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/twitch/twitch_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/twitch/twitch_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/twitch/twitch_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/twitch/twitch_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/twitch/twitch_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/twitch/twitch_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/twitch/twitch_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/twitch/twitch_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>niconico</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/niconico/niconico_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/niconico/niconico_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/niconico/niconico_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/niconico/niconico_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/niconico/niconico_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/niconico/niconico_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/niconico/niconico_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/niconico/niconico_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Pixiv</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/pixiv/pixiv_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/pixiv/pixiv_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/pixiv/pixiv_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/pixiv/pixiv_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/pixiv/pixiv_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/pixiv/pixiv_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/pixiv/pixiv_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/pixiv/pixiv_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>netflix</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/netflix/netflix_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/netflix/netflix_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>disney</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/disney/disney_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/disney/disney_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/disney/disney_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/disney/disney_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/disney/disney_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/disney/disney_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/disney/disney_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/disney/disney_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>bilibili</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/bilibili/bilibili_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/bilibili/bilibili_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/bilibili/bilibili_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/bilibili/bilibili_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/bilibili/bilibili_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/bilibili/bilibili_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/bilibili/bilibili_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/bilibili/bilibili_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>spotify</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/spotify/spotify_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/spotify/spotify_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/spotify/spotify_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/spotify/spotify_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/spotify/spotify_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/spotify/spotify_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/spotify/spotify_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/spotify/spotify_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>dmm</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/dmm/dmm_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/dmm/dmm_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/dmm/dmm_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/dmm/dmm_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/dmm/dmm_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/dmm/dmm_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/dmm/dmm_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/dmm/dmm_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Telegram</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_ip.mrs">MRS · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_ip.yaml">YAML · 仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/telegram/telegram_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_ip.mrs">MRS · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_ip.yaml">YAML · 仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/telegram/telegram_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>gfw</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/gfw/gfw_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/gfw/gfw_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/gfw/gfw_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/gfw/gfw_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/gfw/gfw_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/gfw/gfw_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/gfw/gfw_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/gfw/gfw_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>applications</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/loyalsoldier/applications/applications_process.yaml">YAML · 仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/loyalsoldier/applications/applications_process.yaml">YAML · 仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/loyalsoldier/applications/applications_process.yaml">YAML · 仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/loyalsoldier/applications/applications_process.yaml">YAML · 仅进程</a></td>
   </tr>
   <tr align="center">
     <td>cn</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/cn/cn_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/clash/metacubex/cn/cn_domain.yaml">YAML · 仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/cn/cn_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/clash/metacubex/cn/cn_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/cn/cn_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/cn/cn_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/cn/cn_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/cn/cn_domain.yaml">YAML · 仅域名</a></td>
   </tr>
 </table>
 
@@ -446,339 +446,339 @@ Domain 文件使用 `DOMAIN-SET`，其他类型使用 `RULE-SET`。原有 IP 转
   </tr>
   <tr align="center">
     <td>private</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/private/private_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/private/private_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/private/private_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/private/private_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/private/private_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/private/private_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/private/private_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/private/private_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Copilot</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/copilot/copilot_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/copilot/copilot_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/copilot/copilot_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/copilot/copilot_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/copilot/copilot_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/copilot/copilot_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/copilot/copilot_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/copilot/copilot_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>adobe-activation</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/adobe-activation/adobe-activation_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/adobe-activation/adobe-activation_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/adobe-activation/adobe-activation_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/adobe-activation/adobe-activation_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>googlefcm</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/googlefcm/googlefcm_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/googlefcm/googlefcm_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/googlefcm/googlefcm_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/googlefcm/googlefcm_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>z-library</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/z-library/z-library_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/z-library/z-library_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/z-library/z-library_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/z-library/z-library_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>twitter</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/twitter/twitter_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/twitter/twitter_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/twitter/twitter_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/twitter/twitter_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/twitter/twitter_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/twitter/twitter_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/twitter/twitter_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/twitter/twitter_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>github</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/github/github_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/github/github_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/github/github_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/github/github_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>onedrive</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/onedrive/onedrive_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/onedrive/onedrive_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/onedrive/onedrive_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/onedrive/onedrive_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Microsoft</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/microsoft/microsoft_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/microsoft/microsoft_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/microsoft/microsoft_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/microsoft/microsoft_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>openai</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/openai/openai_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/openai/openai_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/openai/openai_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/openai/openai_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>anthropic</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/anthropic/anthropic_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/anthropic/anthropic_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/anthropic/anthropic_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/anthropic/anthropic_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>discord</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/discord/discord_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/discord/discord_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/discord/discord_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/discord/discord_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>docker</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/docker/docker_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/docker/docker_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/docker/docker_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/docker/docker_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>icloud</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/icloud/icloud_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/icloud/icloud_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/icloud/icloud_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/icloud/icloud_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>apple</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/apple/apple_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/apple/apple_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/apple/apple_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/apple/apple_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>youtube</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/youtube/youtube_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/youtube/youtube_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/youtube/youtube_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/youtube/youtube_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Google</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/google/google_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/google/google_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/google/google_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/google/google_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/google/google_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/google/google_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/google/google_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/google/google_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>twitch</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/twitch/twitch_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/twitch/twitch_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/twitch/twitch_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/twitch/twitch_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>niconico</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/niconico/niconico_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/niconico/niconico_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/niconico/niconico_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/niconico/niconico_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Pixiv</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/pixiv/pixiv_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/pixiv/pixiv_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/pixiv/pixiv_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/pixiv/pixiv_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>netflix</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/netflix/netflix_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/netflix/netflix_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/netflix/netflix_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/netflix/netflix_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/netflix/netflix_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/netflix/netflix_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/netflix/netflix_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/netflix/netflix_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>disney</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/disney/disney_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/disney/disney_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/disney/disney_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/disney/disney_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>bilibili</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/bilibili/bilibili_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/bilibili/bilibili_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/bilibili/bilibili_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/bilibili/bilibili_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>spotify</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/spotify/spotify_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/spotify/spotify_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/spotify/spotify_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/spotify/spotify_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>dmm</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/dmm/dmm_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/dmm/dmm_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/dmm/dmm_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/dmm/dmm_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Telegram</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/telegram/telegram_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/telegram/telegram_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/telegram/telegram_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/telegram/telegram_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/telegram/telegram_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/telegram/telegram_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/telegram/telegram_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/telegram/telegram_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>gfw</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/gfw/gfw_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/gfw/gfw_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/gfw/gfw_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/gfw/gfw_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>applications</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/loyalsoldier/applications/applications_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/loyalsoldier/applications/applications_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/loyalsoldier/applications/applications_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/loyalsoldier/applications/applications_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>cn</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/cn/cn_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/cn/cn_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/cn/cn_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/cn/cn_domain.list">仅域名</a></td>
   </tr>
 <!-- synced-surge-rules:begin -->
   <tr align="center">
     <td>CatsTeam_AdRules</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/cats-team/adrules/adrules_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/cats-team/adrules/adrules_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/cats-team/adrules/adrules_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/cats-team/adrules/adrules_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Lan</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/lan/lan_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/lan/lan_ip.list">仅 IP</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/lan/lan_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/lan/lan_ip.list">仅 IP</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/lan/lan_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/lan/lan_ip.list">仅 IP</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/lan/lan_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/lan/lan_ip.list">仅 IP</a></td>
   </tr>
   <tr align="center">
     <td>RuleForOCD_Steam</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_keyword.list">仅关键词</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_keyword.list">仅关键词</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_keyword.list">仅关键词</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_keyword.list">仅关键词</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_AdobeActivation</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_ip.list">仅 IP</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_ip.list">仅 IP</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_ip.list">仅 IP</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/adobeactivation/adobeactivation_ip.list">仅 IP</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_GoogleFCM</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/googlefcm/googlefcm_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/googlefcm/googlefcm_ip.list">仅 IP</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/googlefcm/googlefcm_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/googlefcm/googlefcm_ip.list">仅 IP</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/googlefcm/googlefcm_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/googlefcm/googlefcm_ip.list">仅 IP</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/googlefcm/googlefcm_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/googlefcm/googlefcm_ip.list">仅 IP</a></td>
   </tr>
   <tr align="center">
     <td>Geosite2Surge_z-library</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/coderbean/z-library/z-library_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/coderbean/z-library/z-library_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/coderbean/z-library/z-library_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/coderbean/z-library/z-library_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>MetaCubeX_linuxdo</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/linuxdo/linuxdo_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/linuxdo/linuxdo_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/linuxdo/linuxdo_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/linuxdo/linuxdo_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Twitter</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/twitter/twitter_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/twitter/twitter_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/twitter/twitter_ip.list">仅 IP</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/twitter/twitter_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/twitter/twitter_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/twitter/twitter_ip.list">仅 IP</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/twitter/twitter_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/twitter/twitter_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/twitter/twitter_ip.list">仅 IP</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/twitter/twitter_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/twitter/twitter_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/twitter/twitter_ip.list">仅 IP</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Claude</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/claude/claude_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/claude/claude_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/claude/claude_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/claude/claude_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_OpenAI</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_asn.list">仅 ASN</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_asn.list">仅 ASN</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/openai/openai_asn.list">仅 ASN</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/openai/openai_asn.list">仅 ASN</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Copilot</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_asn.list">仅 ASN</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_asn.list">仅 ASN</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/copilot/copilot_asn.list">仅 ASN</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/copilot/copilot_asn.list">仅 ASN</a></td>
   </tr>
   <tr align="center">
     <td>MetaCubeX_google-gemini</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/google-gemini/google-gemini_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/google-gemini/google-gemini_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/google-gemini/google-gemini_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/google-gemini/google-gemini_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_GitHub</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/github/github_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/github/github_keyword.list">仅关键词</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/github/github_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/github/github_keyword.list">仅关键词</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/github/github_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/github/github_keyword.list">仅关键词</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/github/github_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/github/github_keyword.list">仅关键词</a></td>
   </tr>
   <tr align="center">
     <td>MetaCubeX_gitlab</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/gitlab/gitlab_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/gitlab/gitlab_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/gitlab/gitlab_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/gitlab/gitlab_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_OneDrive</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/onedrive/onedrive_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/onedrive/onedrive_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/onedrive/onedrive_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/onedrive/onedrive_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/onedrive/onedrive_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/onedrive/onedrive_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/onedrive/onedrive_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/onedrive/onedrive_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/onedrive/onedrive_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/onedrive/onedrive_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/onedrive/onedrive_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/onedrive/onedrive_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Microsoft</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/microsoft/microsoft_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/microsoft/microsoft_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Discord</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/discord/discord_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/discord/discord_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/discord/discord_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/discord/discord_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>MetaCubeX_aliyun</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/aliyun/aliyun_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/aliyun/aliyun_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/aliyun/aliyun_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/aliyun/aliyun_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>MetaCubeX_cloudflare</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/cloudflare/cloudflare_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/cloudflare/cloudflare_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/cloudflare/cloudflare_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/cloudflare/cloudflare_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Docker</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/docker/docker_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/docker/docker_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/docker/docker_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/docker/docker_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>MetaCubeX_homebrew</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/homebrew/homebrew_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/homebrew/homebrew_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/homebrew/homebrew_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/homebrew/homebrew_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>MetaCubeX_python</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/metacubex/python/python_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/metacubex/python/python_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/python/python_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/python/python_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_iCloud</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/icloud/icloud_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/icloud/icloud_keyword.list">仅关键词</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/icloud/icloud_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/icloud/icloud_keyword.list">仅关键词</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/icloud/icloud_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/icloud/icloud_keyword.list">仅关键词</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/icloud/icloud_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/icloud/icloud_keyword.list">仅关键词</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_AppleDomain</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_domainset.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_domainset.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_domainset.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_domainset.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Apple</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/apple/apple_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/apple/apple_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_YouTube</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_useragent.list">仅 User-Agent</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_useragent.list">仅 User-Agent</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/youtube/youtube_useragent.list">仅 User-Agent</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/youtube/youtube_useragent.list">仅 User-Agent</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Google</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/google/google_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/google/google_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Twitch</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/twitch/twitch_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/twitch/twitch_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Niconico</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/niconico/niconico_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/niconico/niconico_useragent.list">仅 User-Agent</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/niconico/niconico_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/niconico/niconico_useragent.list">仅 User-Agent</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/niconico/niconico_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/niconico/niconico_useragent.list">仅 User-Agent</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/niconico/niconico_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/niconico/niconico_useragent.list">仅 User-Agent</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Pixiv</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/pixiv/pixiv_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/pixiv/pixiv_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/pixiv/pixiv_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/pixiv/pixiv_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Netflix</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/netflix/netflix_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/netflix/netflix_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Disney</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/disney/disney_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/disney/disney_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/disney/disney_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/disney/disney_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/disney/disney_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/disney/disney_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/disney/disney_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/disney/disney_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/disney/disney_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/disney/disney_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/disney/disney_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/disney/disney_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_BiliBili</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/bilibili/bilibili_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/bilibili/bilibili_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Spotify</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_process.list">仅进程</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_process.list">仅进程</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_useragent.list">仅 User-Agent</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/spotify/spotify_process.list">仅进程</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_useragent.list">仅 User-Agent</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/spotify/spotify_process.list">仅进程</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_DMM</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/dmm/dmm_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/dmm/dmm_ip.list">仅 IP</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/dmm/dmm_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/dmm/dmm_ip.list">仅 IP</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/dmm/dmm_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/dmm/dmm_ip.list">仅 IP</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/dmm/dmm_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/dmm/dmm_ip.list">仅 IP</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_Telegram</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_asn.list">仅 ASN</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_process.list">仅进程</a><br><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_logical.list">仅逻辑规则</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_asn.list">仅 ASN</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_process.list">仅进程</a><br><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_logical.list">仅逻辑规则</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_keyword.list">仅关键词</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_ip.list">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_asn.list">仅 ASN</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_process.list">仅进程</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/blackmatrix7/telegram/telegram_logical.list">仅逻辑规则</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_keyword.list">仅关键词</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_ip.list">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_asn.list">仅 ASN</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_process.list">仅进程</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/blackmatrix7/telegram/telegram_logical.list">仅逻辑规则</a></td>
   </tr>
   <tr align="center">
     <td>Loyalsoldier_gfw</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/loyalsoldier/gfw/gfw_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/loyalsoldier/gfw/gfw_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/loyalsoldier/gfw/gfw_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/loyalsoldier/gfw/gfw_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Loyalsoldier_direct</td>
-    <td><a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/surge/loyalsoldier/direct/direct_domain.list">仅域名</a></td>
-    <td><a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/surge/loyalsoldier/direct/direct_domain.list">仅域名</a></td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/loyalsoldier/direct/direct_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/loyalsoldier/direct/direct_domain.list">仅域名</a></td>
   </tr>
 <!-- synced-surge-rules:end -->
 </table>

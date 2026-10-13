@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Usage guide
-    url: https://github.com/Paloexiz/blacklist-rules/blob/main/README.md
+    url: https://github.com/Lolicandae/blacklist-rules/blob/main/README.md
     about: Find subscription URLs, supported clients, and usage instructions for rules maintained in this repository.
   - name: Third-party rules
-    url: https://github.com/Paloexiz/blacklist-rules/blob/main/third_party/README.md
+    url: https://github.com/Lolicandae/blacklist-rules/blob/main/third_party/README.md
     about: Find third-party subscription URLs, sync behavior, and maintenance documentation.

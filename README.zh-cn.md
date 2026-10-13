@@ -58,90 +58,90 @@ Pull Request 中，GitHub Actions 校验源文件生成的候选结果，不写�
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/common/clash/README.zh-cn.md">自定义规则合集</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/common/clash/README.zh-cn.md">自定义规则合集</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.yaml">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.yaml">仅域名</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.mrs">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/clash/blacklistrules_domainonly.mrs">仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.yaml">仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.yaml">仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.mrs">仅域名</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/individual/boost/clash/README.zh-cn.md">通用-加速</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">仅游戏且仅域名</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">仅游戏且仅域名</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">仅游戏且仅域名</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">仅游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/clash/blacklistrules_domainonly.mrs">仅域名</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/individual/security/clash/README.zh-cn.md">通用-安全</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/individual/boost/clash/README.zh-cn.md">通用-加速</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">仅程序名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">仅游戏且仅域名</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">仅域名</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">仅程序名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">仅游戏且仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.yaml">仅游戏且仅域名</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/clash/slowdomains_gameonly_domainonly.mrs">仅游戏且仅域名</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/individual/unlock/clash/README.zh-cn.md">通用-解锁</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/individual/security/clash/README.zh-cn.md">通用-安全</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">仅域名</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">仅游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">仅程序名</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">仅游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml">仅域名</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">仅游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml">仅程序名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.mrs">仅域名</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/individual/unlock/clash/README.zh-cn.md">通用-解锁</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">仅游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">仅游戏且仅域名</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
+      <br>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">仅游戏且仅域名</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.yaml">排除游戏且仅域名</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.yaml">仅游戏且仅域名</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockeddomains_nogame_domainonly.mrs">排除游戏且仅域名</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/clash/blockedgames_domainonly.mrs">仅游戏且仅域名</a>
     </td>
   </tr>
 </table>
@@ -162,58 +162,58 @@ Pull Request 中，GitHub Actions 校验源文件生成的候选结果，不写�
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/common/sing-box/README.zh-cn.md">自定义规则合集</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/common/sing-box/README.zh-cn.md">自定义规则合集</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/sing-box/blacklistrules_domainonly.json">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/sing-box/blacklistrules_domainonly.json">仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/sing-box/blacklistrules_domainonly.json">仅域名</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/individual/boost/sing-box/README.zh-cn.md">通用-加速</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">排除游戏且仅域名</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">仅游戏且仅域名</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">排除游戏且仅域名</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">仅游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/sing-box/blacklistrules_domainonly.json">仅域名</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/individual/security/sing-box/README.zh-cn.md">通用-安全</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/individual/boost/sing-box/README.zh-cn.md">通用-加速</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">排除游戏且仅域名</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">仅程序名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">仅游戏且仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_nogame_domainonly.json">排除游戏且仅域名</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">仅程序名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/sing-box/slowdomains_gameonly_domainonly.json">仅游戏且仅域名</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/blob/main/artifact/individual/unlock/sing-box/README.zh-cn.md">通用-解锁</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/individual/security/sing-box/README.zh-cn.md">通用-安全</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">排除游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">仅域名</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">仅游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">仅程序名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">排除游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json">仅域名</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">仅游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json">仅程序名</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="https://github.com/Lolicandae/blacklist-rules/blob/main/artifact/individual/unlock/sing-box/README.zh-cn.md">通用-解锁</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">排除游戏且仅域名</a>
+      <br>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">仅游戏且仅域名</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockeddomains_nogame_domainonly.json">排除游戏且仅域名</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/sing-box/blockedgames_domainonly.json">仅游戏且仅域名</a>
     </td>
   </tr>
 </table>
@@ -234,58 +234,58 @@ Pull Request 中，GitHub Actions 校验源文件生成的候选结果，不写�
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/common/surge">自定义规则合集</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/common/surge">自定义规则合集</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/common/surge/blacklistrules_domainonly.list">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/common/surge/blacklistrules_domainonly.list">仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list">仅域名</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/boost/surge">通用-加速</a>
-    </td>
-    <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">排除游戏且仅域名</a>
-      <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">仅游戏且仅域名</a>
-    </td>
-    <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">排除游戏且仅域名</a>
-      <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">仅游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/common/surge/blacklistrules_domainonly.list">仅域名</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/security/surge">通用-安全</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/boost/surge">通用-加速</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_domainonly.list">仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">排除游戏且仅域名</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_processnameonly.list">仅程序名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">仅游戏且仅域名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_domainonly.list">仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_nogame_domainonly.list">排除游戏且仅域名</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_processnameonly.list">仅程序名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/boost/surge/slowdomains_gameonly_domainonly.list">仅游戏且仅域名</a>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <a href="https://github.com/Paloexiz/blacklist-rules/tree/main/artifact/individual/unlock/surge">通用-解锁</a>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/security/surge">通用-安全</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">排除游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_domainonly.list">仅域名</a>
       <br>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/unlock/surge/blockedgames_domainonly.list">仅游戏且仅域名</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/surge/anonymityservice_processnameonly.list">仅程序名</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">排除游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_domainonly.list">仅域名</a>
       <br>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/unlock/surge/blockedgames_domainonly.list">仅游戏且仅域名</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/surge/anonymityservice_processnameonly.list">仅程序名</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="https://github.com/Lolicandae/blacklist-rules/tree/main/artifact/individual/unlock/surge">通用-解锁</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">排除游戏且仅域名</a>
+      <br>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/unlock/surge/blockedgames_domainonly.list">仅游戏且仅域名</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/surge/blockeddomains_nogame_domainonly.list">排除游戏且仅域名</a>
+      <br>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/unlock/surge/blockedgames_domainonly.list">仅游戏且仅域名</a>
     </td>
   </tr>
 </table>

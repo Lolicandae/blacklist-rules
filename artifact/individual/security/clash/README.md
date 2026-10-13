@@ -6,8 +6,8 @@
 
  **If you would like to use `anonymityservice_domainonly.yaml`, you can get it with following links:**
 
-- Original: [YAML](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.yaml) · [MRS](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.mrs)
-- CDN(maybe 24-hour-delaying sync): [YAML](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml) · [MRS](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.mrs)
+- Original: [YAML](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.yaml) · [MRS](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_domainonly.mrs)
+- CDN(maybe 24-hour-delaying sync): [YAML](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml) · [MRS](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.mrs)
 
 ### Note
 
@@ -25,7 +25,7 @@ rule-providers:
       interval: 86400,
       format: yaml,
       behavior: domain,
-      url: "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml",
+      url: "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_domainonly.yaml",
       path: "./ruleset/Paloexiz/anonymityservice_domainonly.yaml",
     }
 ```
@@ -34,8 +34,8 @@ rule-providers:
 
  **If you would like to use `anonymityservice_processnameonly.yaml`, you can get it with following links:**
 
-- Original: [YAML](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml)
-- CDN(maybe 24-hour-delaying sync): [YAML](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml)
+- Original: [YAML](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml)
+- CDN(maybe 24-hour-delaying sync): [YAML](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml)
 
 ### Note
 
@@ -51,7 +51,7 @@ rule-providers:
       interval: 86400,
       format: yaml,
       behavior: classical,
-      url: "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml",
+      url: "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/clash/anonymityservice_processnameonly.yaml",
       path: "./ruleset/Paloexiz/anonymityservice_processnameonly.yaml",
     }
 ```

@@ -209,7 +209,7 @@ SURGE_SECTIONS = {
     "Blackmatrix7_DMM": "dmm", "Blackmatrix7_Telegram": "telegram", "Loyalsoldier_gfw": "gfw",
     "Loyalsoldier_direct": "cn_domain",
 }
-SURGE_URL = "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/third_party/"
+SURGE_URL = "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/"
 TABLE_START = "<!-- synced-surge-rules:begin -->"
 TABLE_END = "<!-- synced-surge-rules:end -->"
 
@@ -543,7 +543,7 @@ def render_surge_table(text: str, mirrors: dict[str, dict], chinese: bool) -> st
         if not source["outputs"]:
             continue
         cells = []
-        for base in ("https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/", SURGE_URL):
+        for base in ("https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/", SURGE_URL):
             cells.append('<br>'.join(f'<a href="{base}{path}">{labels[group]}</a>' for group, path in source["outputs"].items()))
         rows.append(f'  <tr align="center">\n    <td>{name}</td>\n    <td>{cells[0]}</td>\n    <td>{cells[1]}</td>\n  </tr>\n')
     before, _, tail = text.partition(TABLE_START)
@@ -581,7 +581,7 @@ def render_legacy_table(table: str, fmt: str, selected: dict, sources: dict, chi
         if sorted(paths) == sorted(path for path, _ in outputs for _ in range(2)):
             return match[0]
         cells = []
-        for base in ("https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/", SURGE_URL):
+        for base in ("https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/", SURGE_URL):
             cells.append('<br>'.join(f'<a href="{base}{path}">{label}</a>' for path, label in outputs) or ("暂无规则" if chinese else "No rules"))
         return f'  <tr align="center">\n    <td>{match[1]}</td>\n    <td>{cells[0]}</td>\n    <td>{cells[1]}</td>\n  </tr>\n'
 
@@ -920,7 +920,7 @@ def validate_repository(root: Path, *, require_references: bool = True) -> None:
                     if not match:
                         raise BuildError(f"Unsupported README reference syntax: {anchor}")
                     url = match[1]
-                    path = next((url.removeprefix(base) for base in (SURGE_URL, "https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/") if url.startswith(base)), None)
+                    path = next((url.removeprefix(base) for base in (SURGE_URL, "https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/") if url.startswith(base)), None)
                     if path not in allowed:
                         raise BuildError(f"Invalid or unregistered README reference: {url}")
             # Render one existing object so a render failure names the affected file.
@@ -1305,7 +1305,7 @@ def self_test() -> None:
                 for fmt in ("sing-box", "clash", "surge"):
                     path = fixture_paths[fmt]
                     display = ("YAML · " if fmt == "clash" else "") + label
-                    cells = [f'<a href="{base}{path}">{display}</a>' for base in ("https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/", SURGE_URL)]
+                    cells = [f'<a href="{base}{path}">{display}</a>' for base in ("https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/", SURGE_URL)]
                     row = f'  <tr align="center">\n    <td>{stem}</td>\n    <td>{cells[0]}</td>\n    <td>{cells[1]}</td>\n  </tr>\n'
                     tables.append("<table>\n" + row + (f"{TABLE_START}\n{TABLE_END}\n" if fmt == "surge" else "") + "</table>\n")
                 document = legacy / "third_party" / filename

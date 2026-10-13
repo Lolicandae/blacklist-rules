@@ -23,10 +23,10 @@
       <a href="mihomo/mihomo.yaml">mihomo.yaml</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/client_conf/mihomo/mihomo.yaml">YAML</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo/mihomo.yaml">YAML</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/client_conf/mihomo/mihomo.yaml">YAML</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo/mihomo.yaml">YAML</a>
     </td>
   </tr>
   <tr align="center">
@@ -34,10 +34,10 @@
       <a href="mihomo_configuration/README.zh-cn.md">mihomo_configuration.yaml</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_configuration/mihomo_configuration.yaml">YAML</a>
     </td>
   </tr>
   <tr align="center">
@@ -45,10 +45,10 @@
       <a href="mihomo_override/README.zh-cn.md">mihomo_override.js</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/client_conf/mihomo_override/mihomo_override.js">JavaScript</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo_override/mihomo_override.js">JavaScript</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/client_conf/mihomo_override/mihomo_override.js">JavaScript</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_override/mihomo_override.js">JavaScript</a>
     </td>
   </tr>
   <tr align="center">
@@ -56,10 +56,10 @@
       <a href="surge_configuration/README.zh-cn.md">surge_configuration.conf</a>
     </td>
     <td>
-      <a href="https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/client_conf/surge_configuration/surge_configuration.conf">CONF</a>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/surge_configuration/surge_configuration.conf">CONF</a>
     </td>
     <td>
-      <a href="https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/client_conf/surge_configuration/surge_configuration.conf">CONF</a>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/surge_configuration/surge_configuration.conf">CONF</a>
     </td>
   </tr>
 </table>

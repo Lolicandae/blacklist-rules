@@ -6,8 +6,8 @@
 
  **如果您需要使用 `anonymityservice_domainonly.json` 文件，您可以通过如下超链接进行获取：**
 
-- 原始链接：[查看或下载](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
-- 镜像链接（可能会有24小时的延迟）：[查看或下载](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
+- 原始链接：[查看或下载](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
+- 镜像链接（可能会有24小时的延迟）：[查看或下载](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json)
 
 ### 注意事项
 
@@ -25,7 +25,7 @@
         "type": "remote",
         "tag": "blacklistrules-security_domain",
         "format": "source",
-        "url": "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json",
+        "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_domainonly.json",
         "update_interval": "24h"
       }
     ],
@@ -45,8 +45,8 @@
 
  **如果您需要使用 `anonymityservice_processnameonly.json` 文件，您可以通过如下超链接进行获取：**
 
-- 原始链接：[查看或下载](https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
-- 镜像链接（可能会有24小时的延迟）：[查看或下载](https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
+- 原始链接：[查看或下载](https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
+- 镜像链接（可能会有24小时的延迟）：[查看或下载](https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json)
 
 ### 注意事项
 
@@ -66,7 +66,7 @@
         "type": "remote",
         "tag": "blacklistrules-security_process",
         "format": "source",
-        "url": "https://fastly.jsdelivr.net/gh/Paloexiz/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json",
+        "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/artifact/individual/security/sing-box/anonymityservice_processnameonly.json",
         "update_interval": "24h"
       }
     ],
