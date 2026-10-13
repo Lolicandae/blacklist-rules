@@ -140,7 +140,7 @@
   },
   "github": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.yaml",
-    "sha256": "a4cde29dee08b937d6c2fabf256e032b9ceb3583942cffe05cf53fc9571d45b4",
+    "sha256": "1c6b5790a087e3497effe3751c0f4d41ff018c0176ad7e41d09d6d51bf64a1d9",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -278,7 +278,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "c76682fc9a3dd1637a81b85e54f00fb1bd93a67e79a4f497b7eefb26e5172743",
+    "sha256": "075e2246b76f57f85c568e3cd994f5f856c8d3c3a54f1c19cd694b556214683a",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -377,7 +377,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "21fee1a588ef81d49cb45714f7efa4d85c05af2b315443f6d55a4fbab6168391",
+    "sha256": "2da23ea7980af64b9506d2b769dd576508381dda1c2ccbc598e41724de4a925c",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
