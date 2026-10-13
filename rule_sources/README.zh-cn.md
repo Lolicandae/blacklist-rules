@@ -2,7 +2,7 @@
 
 **语言选择：[English](README.md) | 简体中文**
 
-这里是手动维护规则条目的入口。需要改规则时，先改本目录里的 `*.rules`。推送后，GitHub Actions 会构建 Clash / Surge / sing-box 产物并提交。
+这里是手动维护规则条目的入口。需要改规则时，先改本目录里的 `*.rules`。PR 和其他分支的推送只校验生成结果，不写入文件，无需预先提交产物。变更进入 `main` 后，GitHub Actions 先校验，再构建 Clash / Surge / sing-box 产物并提交。
 
 ## 基本格式
 
@@ -32,13 +32,16 @@ doodles.google # Currently blocked.
 
 ## 本地校验
 
+这些命令不是日常流程的必需步骤。推送前想检查生成结果，或排查构建问题时再运行。
+
 构建使用 Mihomo v1.19.32。请将可执行文件加入 `PATH`，或先设置 `MIHOMO_BIN`：
 
 ```powershell
 $env:MIHOMO_BIN = "C:\path\to\mihomo.exe"
 python workflow_scripts/build_rules.py --self-test
+python workflow_scripts/build_rules.py --validate
 python workflow_scripts/build_rules.py
 python workflow_scripts/build_rules.py --check
 ```
 
-这些命令不是日常流程的必需步骤。推送前想检查生成结果，或排查构建问题时再运行。
+`--validate` 校验源文件生成的候选，包括 MRS 转换，不写文件，也不要求现有产物已同步。`--check` 则比较候选与已有产物是否一致。自动发布只在 `main` 执行，手动运行也遵循此限制；手动选择其他分支时只做校验。

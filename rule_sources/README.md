@@ -2,7 +2,7 @@
 
 **Select your Language: English | [简体中文](README.zh-cn.md)**
 
-This directory is where manual rule edits happen. Change the `*.rules` files here first. After you push those changes, GitHub Actions builds the Clash / Surge / sing-box outputs and commits them.
+This directory is where manual rule edits happen. Change the `*.rules` files here first. Pull requests and pushes to other branches validate the generated candidates without writing files; you do not need to commit generated outputs. After changes reach `main`, GitHub Actions validates them, then builds and commits the Clash / Surge / sing-box outputs.
 
 ## Basic Format
 
@@ -32,13 +32,16 @@ doodles.google # Currently blocked.
 
 ## Local Verification
 
+These commands are optional. Use them when you want to check the generated files before pushing or debug a build problem.
+
 The build uses Mihomo v1.19.32. Add its executable to `PATH`, or set `MIHOMO_BIN` before running these commands:
 
 ```powershell
 $env:MIHOMO_BIN = "C:\path\to\mihomo.exe"
 python workflow_scripts/build_rules.py --self-test
+python workflow_scripts/build_rules.py --validate
 python workflow_scripts/build_rules.py
 python workflow_scripts/build_rules.py --check
 ```
 
-These commands are optional. Use them when you want to check the generated files before pushing or debug a build problem.
+`--validate` checks the source-generated candidates, including MRS conversion, without writing files or requiring the published outputs to match. `--check` compares the generated candidates with the existing output files. Automatic publishing runs only on `main`, including manually dispatched runs; dispatching another branch only validates it.

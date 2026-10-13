@@ -22,9 +22,9 @@
 
 1. 修改 `rule_sources/` 中对应的源文件。
 2. 提交并推送源文件改动。
-3. GitHub Actions 运行 `python workflow_scripts/build_rules.py`，并提交生成后的规则产物。
+3. 变更进入 `main` 后，GitHub Actions 先校验，再生成并提交规则产物。
 
-Pull Request 中，GitHub Actions 会检查生成产物是否和源文件一致。推送前想先自查，可以在本地运行 `python workflow_scripts/build_rules.py --check`。
+Pull Request 中，GitHub Actions 校验源文件生成的候选结果，不写入产物，无需预先提交生成文件。推送前可在本地运行 `python workflow_scripts/build_rules.py --validate`；如需检查现有产物是否与源文件一致，使用 `--check`。
 
 源文件格式与维护约定见 [rule_sources/README.zh-cn.md](rule_sources/README.zh-cn.md)。
 

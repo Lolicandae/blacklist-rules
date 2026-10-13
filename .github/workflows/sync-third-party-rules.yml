@@ -11,27 +11,38 @@ on:
     paths:
       - "workflow_scripts/sync_third_party_rules.py"
       - "workflow_scripts/build_rules.py"
+      - "workflow_scripts/publish_generated_rules.py"
+      - "third_party/**"
+      - "client_conf/**/*.yaml"
+      - "client_conf/**/*.js"
+      - "client_conf/**/*.conf"
       - ".github/workflows/sync-third-party-rules.yml"
   pull_request:
     paths:
       - "workflow_scripts/sync_third_party_rules.py"
       - "workflow_scripts/build_rules.py"
+      - "workflow_scripts/publish_generated_rules.py"
       - ".github/workflows/sync-third-party-rules.yml"
       - "third_party/**"
+      - "client_conf/**/*.yaml"
+      - "client_conf/**/*.js"
+      - "client_conf/**/*.conf"
 
 permissions:
   contents: read
 
-concurrency:
-  group: third-party-rules-${{ github.ref }}
-  cancel-in-progress: false
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -49,14 +60,20 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: "1"
         run: python workflow_scripts/sync_third_party_rules.py --self-test
+      - name: Check actual repository rules and references
+        run: python workflow_scripts/sync_third_party_rules.py --check
 
   sync:
     needs: validate
     if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
     permissions:
       contents: write
+    concurrency:
+      group: rules-publish-${{ github.ref }}
+      cancel-in-progress: false
+      queue: max
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -73,21 +90,5 @@ jobs:
           gzip -dc "$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo.gz" > "$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo"
           chmod +x "$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo"
           echo "MIHOMO_BIN=$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo" >> "$GITHUB_ENV"
-      - name: Sync and convert third-party rules
-        env:
-          PYTHONDONTWRITEBYTECODE: "1"
-        run: python workflow_scripts/sync_third_party_rules.py
-      - name: Commit generated rules
-        shell: bash
-        run: |
-          if [ -z "$(git status --porcelain -- third_party/clash third_party/surge third_party/sing-box third_party/sources.json third_party/README.md third_party/README.zh-cn.md client_conf/mihomo_configuration/mihomo_configuration.yaml client_conf/mihomo_override/mihomo_override.js client_conf/surge_configuration/surge_configuration.conf)" ]; then
-            echo "Third-party rules are already up to date."
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- third_party
-          git add -- client_conf/mihomo_configuration/mihomo_configuration.yaml client_conf/mihomo_override/mihomo_override.js client_conf/surge_configuration/surge_configuration.conf
-          git commit -m "chore: sync third-party rules"
-          git push
+      - name: Sync, validate and publish latest rules
+        run: python workflow_scripts/publish_generated_rules.py sync

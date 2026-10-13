@@ -1,5 +1,7 @@
 # Local agent/tool metadata
 .serena/
+.scratch/
+.kilo/
 AGENTS.md
 docs/
 

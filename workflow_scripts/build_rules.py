@@ -326,6 +326,13 @@ def self_check_mrs() -> None:
                 raise AssertionError("Invalid MRS output did not stop the build")
         assert original.read_bytes() == b"Unchanged original output\n"
         assert not (root / "ai-agent-second.yaml").exists()
+        config.write_text(json.dumps({"outputs": [
+            {"path": "ai-agent-first.yaml", "format": "clash", "mrs": "domain", "sources": ["ai-agent-source.rules"]},
+        ]}), encoding="utf-8")
+        with patch.dict(globals(), {"ROOT": root, "BUILD_CONFIG_PATH": config}):
+            assert build_targets(check_mode=False, validate_mode=True) == 0
+        assert original.read_bytes() == b"Unchanged original output\n"
+        assert not original.with_suffix(".mrs").exists()
     print("MRS domain/IP conversion, disabled rules and unsupported input checks passed.")
 
 
@@ -351,7 +358,7 @@ def build_output(output: dict[str, Any]) -> list[tuple[Path, bytes]]:
     return targets
 
 
-def build_targets(check_mode: bool) -> int:
+def build_targets(check_mode: bool, validate_mode: bool = False) -> int:
     config = load_config(BUILD_CONFIG_PATH)
     failures = 0
     targets = []
@@ -359,6 +366,9 @@ def build_targets(check_mode: bool) -> int:
         if not isinstance(output, dict):
             raise BuildError("Output entries must be objects")
         targets.extend(build_output(output))
+
+    if validate_mode:
+        return 0
 
     for target_path, content in targets:
         if check_mode:
@@ -380,8 +390,10 @@ def build_targets(check_mode: bool) -> int:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build rule outputs from .rules sources")
-    parser.add_argument("--check", action="store_true", help="Check generated files without writing")
-    parser.add_argument("--self-test", action="store_true", help="Check JSON matching and MRS conversion without publishing")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--check", action="store_true", help="Check generated files without writing")
+    mode.add_argument("--validate", action="store_true", help="Validate source-generated candidates without writing or comparing published files")
+    mode.add_argument("--self-test", action="store_true", help="Check JSON matching and MRS conversion without publishing")
     args = parser.parse_args()
 
     try:
@@ -389,7 +401,7 @@ def main() -> None:
             self_check()
             self_check_mrs()
             return
-        failures = build_targets(check_mode=args.check)
+        failures = build_targets(check_mode=args.check, validate_mode=args.validate)
     except BuildError as exc:
         print(f"[ERROR] {exc}")
         raise SystemExit(1)
@@ -397,7 +409,9 @@ def main() -> None:
     if args.check and failures:
         print(f"Build check failed, mismatch count: {failures}")
         raise SystemExit(1)
-    if args.check:
+    if args.validate:
+        print("Build candidate validation passed.")
+    elif args.check:
         print("Build check passed.")
     else:
         print("Build completed.")

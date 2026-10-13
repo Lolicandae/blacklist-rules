@@ -7,26 +7,34 @@ on:
     paths:
       - "rule_sources/**"
       - "workflow_scripts/build_rules.py"
+      - "workflow_scripts/publish_generated_rules.py"
       - "artifact/**"
       - ".github/workflows/build-rules.yml"
   pull_request:
     paths:
       - "rule_sources/**"
       - "workflow_scripts/build_rules.py"
+      - "workflow_scripts/publish_generated_rules.py"
       - "artifact/**"
       - ".github/workflows/build-rules.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
 
 jobs:
-  build-rules:
+  validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -46,25 +54,41 @@ jobs:
       - name: Check JSON matching and MRS conversion
         run: python workflow_scripts/build_rules.py --self-test
 
-      - name: Verify generated rules in pull requests
-        if: ${{ github.event_name == 'pull_request' }}
-        run: python workflow_scripts/build_rules.py --check
+      - name: Check publication recovery
+        run: python workflow_scripts/publish_generated_rules.py --self-test
 
-      - name: Build generated rules
-        if: ${{ github.event_name != 'pull_request' }}
-        run: python workflow_scripts/build_rules.py
+      - name: Validate source-generated candidates
+        run: python workflow_scripts/build_rules.py --validate
 
-      - name: Commit generated rules
-        if: ${{ github.event_name != 'pull_request' }}
+  publish:
+    needs: validate
+    if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    concurrency:
+      group: rules-publish-${{ github.ref }}
+      cancel-in-progress: false
+      queue: max
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up Mihomo for MRS conversion
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- artifact)" ]; then
-            echo "Generated rules are already up to date."
-            exit 0
-          fi
+          mkdir -p "$RUNNER_TEMP/ai-agent-mihomo"
+          curl -fsSL --retry 3 --max-time 180 -o "$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo.gz" https://github.com/MetaCubeX/mihomo/releases/download/v1.19.32/mihomo-linux-amd64-compatible-v1.19.32.gz
+          echo "ba3ce607747a07f948fc35780e108a4a7c7f552a38b9bd4d115f313ebcb89c20  $RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo.gz" | sha256sum --check -
+          gzip -dc "$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo.gz" > "$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo"
+          chmod +x "$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo"
+          echo "MIHOMO_BIN=$RUNNER_TEMP/ai-agent-mihomo/ai-agent-mihomo" >> "$GITHUB_ENV"
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add artifact
-          git commit -m "chore: build rules"
-          git push
+      - name: Generate, validate and publish latest rules
+        run: python workflow_scripts/publish_generated_rules.py build

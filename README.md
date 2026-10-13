@@ -22,9 +22,9 @@ To update this repository:
 
 1. Edit the matching source file in `rule_sources/`.
 2. Commit and push the source changes.
-3. GitHub Actions runs `python workflow_scripts/build_rules.py` and commits the generated outputs.
+3. After the changes reach `main`, GitHub Actions validates them, then generates and commits the rule outputs.
 
-On pull requests, GitHub Actions checks generated outputs against the source files. Run `python workflow_scripts/build_rules.py --check` locally if you want a quick check before pushing.
+On pull requests, GitHub Actions validates the source-generated candidates without writing output files; you do not need to commit generated outputs. Run `python workflow_scripts/build_rules.py --validate` locally before pushing. Use `--check` to compare existing outputs with the source files.
 
 See [rule_sources/README.md](rule_sources/README.md) for the source format and maintenance rules.
 

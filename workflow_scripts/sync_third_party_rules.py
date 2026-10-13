@@ -5,19 +5,25 @@ from __future__ import annotations
 
 import argparse
 import base64
+import contextlib
+import errno
 import hashlib
+import html
+import io
 import ipaddress
 import json
 import os
 import re
 import shutil
+import socket
 import subprocess
 import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 from pathlib import Path
+from time import sleep
 from unittest.mock import patch
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 from build_rules import BuildError, Rule, render_items, render_json_rules, self_check
@@ -225,16 +231,72 @@ def targets() -> dict[str, tuple[str, str, str]]:
 
 def download(url: str) -> str | bytes | None:
     request = Request(url, headers={"User-Agent": "blacklist-rules-sync"})
-    try:
-        with urlopen(request, timeout=30) as response:
-            content = response.read(16 * 1024 * 1024 + 1)
-    except HTTPError as exc:
-        if exc.code in {404, 410}:
-            return None
-        raise
+    for attempt in range(3):
+        try:
+            with urlopen(request, timeout=30) as response:
+                content = response.read(16 * 1024 * 1024 + 1)
+            break
+        except HTTPError as exc:
+            if exc.code in {404, 410}:
+                exc.close()
+                return None
+            if exc.code not in {429, 500, 502, 503, 504} or attempt == 2:
+                raise
+            exc.close()
+        except (URLError, TimeoutError, ConnectionError) as exc:
+            reason = exc.reason if isinstance(exc, URLError) else exc
+            temporary = isinstance(reason, (TimeoutError, ConnectionError)) or isinstance(reason, socket.gaierror) and reason.errno == socket.EAI_AGAIN or isinstance(reason, OSError) and reason.errno in {errno.ENETUNREACH, errno.EHOSTUNREACH}
+            if not temporary or attempt == 2:
+                raise
+        sleep(attempt + 1)
     if len(content) > 16 * 1024 * 1024:
         raise BuildError(f"Source exceeds 16 MiB: {url}")
     return content if url.endswith(".mrs") else content.decode("utf-8-sig")
+
+
+def download_self_test() -> None:
+    url = "https://example.invalid/ai-agent-rules.txt"
+    errors = [URLError(ConnectionResetError("reset")), URLError(TimeoutError("timeout")), TimeoutError("read timeout"), ConnectionResetError("read reset"), URLError(socket.gaierror(socket.EAI_AGAIN, "temporary DNS")), URLError(OSError(errno.ENETUNREACH, "network unreachable")), URLError(OSError(errno.EHOSTUNREACH, "host unreachable"))]
+    errors.extend(HTTPError(url, status, "temporary", None, None) for status in (429, 500, 502, 503, 504))
+    for error in errors:
+        with patch(__name__ + ".urlopen", side_effect=[error, error, io.BytesIO(b"example.test\n")]) as request, patch(__name__ + ".sleep") as delay:
+            assert download(url) == "example.test\n"
+            assert request.call_count == 3 and [entry.args for entry in delay.call_args_list] == [(1,), (2,)]
+        with patch(__name__ + ".urlopen", side_effect=error) as request, patch(__name__ + ".sleep") as delay:
+            try:
+                download(url)
+            except type(error):
+                pass
+            else:
+                raise AssertionError("Persistent download failure was ignored")
+            assert request.call_count == 3 and delay.call_count == 2
+    for status in (404, 410):
+        with patch(__name__ + ".urlopen", side_effect=HTTPError(url, status, "missing", None, None)) as request, patch(__name__ + ".sleep") as delay:
+            assert download(url) is None and request.call_count == 1
+            delay.assert_not_called()
+    for error in (HTTPError(url, 403, "forbidden", None, None), URLError(ValueError("invalid URL")), URLError(socket.gaierror(socket.EAI_NONAME, "unknown host"))):
+        with patch(__name__ + ".urlopen", side_effect=error) as request, patch(__name__ + ".sleep") as delay:
+            try:
+                download(url)
+            except type(error):
+                pass
+            else:
+                raise AssertionError("Permanent download failure was ignored")
+            assert request.call_count == 1
+            delay.assert_not_called()
+    for payload, expected_error in ((b"\xff", UnicodeError), (b"x" * (16 * 1024 * 1024 + 1), BuildError)):
+        with patch(__name__ + ".urlopen", return_value=io.BytesIO(payload)) as request, patch(__name__ + ".sleep") as delay:
+            try:
+                download(url)
+            except expected_error:
+                pass
+            else:
+                raise AssertionError("Invalid download payload was accepted")
+            assert request.call_count == 1
+            delay.assert_not_called()
+    with patch(__name__ + ".urlopen", return_value=io.BytesIO(b"\xff")):
+        assert download(url + ".mrs") == b"\xff"
+    print("Bounded download retry, missing upstream and permanent failure checks passed.")
 
 
 @lru_cache(maxsize=64)
@@ -567,19 +629,19 @@ def render_mihomo_references(text: str, selected: dict, sources: dict, javascrip
     return text
 
 
-def reference_candidates(root: Path, selected: dict, sources: dict) -> dict[Path, bytes]:
+def reference_candidates(root: Path, selected: dict, sources: dict, only: Path | None = None) -> dict[Path, bytes]:
     mirrors = {name: sources[index] for index, (name, _, kind) in selected.items() if kind in {"SurgeSplit", "DomainSet"}}
     result = {}
     profile = root / "client_conf/surge_configuration/surge_configuration.conf"
-    if profile.is_file():
+    if (only is None or only == profile) and profile.is_file():
         result[profile] = render_surge_profile(profile.read_text(encoding="utf-8"), mirrors).encode("utf-8")
     for relative, javascript in (("client_conf/mihomo_configuration/mihomo_configuration.yaml", False), ("client_conf/mihomo_override/mihomo_override.js", True)):
         client = root / relative
-        if client.is_file():
+        if (only is None or only == client) and client.is_file():
             result[client] = render_mihomo_references(client.read_text(encoding="utf-8"), selected, sources, javascript).encode("utf-8")
     for filename, chinese in (("README.md", False), ("README.zh-cn.md", True)):
         document = root / "third_party" / filename
-        if document.is_file():
+        if (only is None or only == document) and document.is_file():
             text = document.read_text(encoding="utf-8")
             tables = list(re.finditer(r"<table>\n.*?</table>", text, re.S))
             if len(tables) != 3:
@@ -588,6 +650,286 @@ def reference_candidates(root: Path, selected: dict, sources: dict) -> dict[Path
                 text = text[:table.start()] + render_legacy_table(table[0], fmt, selected, sources, chinese) + text[table.end():]
             result[document] = render_surge_table(text, mirrors, chinese).encode("utf-8")
     return result
+
+
+def notice_path(url: str) -> str:
+    return {"MetaCubeX": "licenses/MetaCubeX/LICENSE", "peiyingyao": "licenses/Rule-for-OCD/LICENSE", "Loyalsoldier": "licenses/Loyalsoldier/LICENSE", "Cats-Team": "NOTICE.md", "blackmatrix7": "licenses/blackmatrix7-LICENSE", "coderbean": "NOTICE.md"}[url.split("/")[3]]
+
+
+def read_repository_file(root: Path, relative: str) -> bytes:
+    root = root.resolve()
+    path = root / relative
+    for part in (path, *path.parents):
+        if part == root:
+            break
+        if part.is_symlink() or getattr(part, "is_junction", lambda: False)():
+            raise BuildError(f"{relative}: linked repository files are unsupported")
+    if not path.resolve().is_relative_to(root):
+        raise BuildError(f"{relative}: path resolves outside the repository")
+    if not path.is_file():
+        raise BuildError(f"{relative}: required file is missing")
+    content = path.read_bytes()
+    if not content.strip():
+        raise BuildError(f"{relative}: file is empty")
+    return content
+
+
+def unique_object(pairs: list[tuple[str, object]]) -> dict:
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise BuildError(f"Duplicate JSON property: {key}")
+        result[key] = value
+    return result
+
+
+def validate_rule_file(content: bytes, kind: str, key: str) -> None:
+    if key == "mrs":
+        if not validate_mrs(content, kind):
+            raise BuildError("MRS contains no matching rules")
+        return
+    text = content.decode("utf-8")
+    if key == "sing-box":
+        data = json.loads(text, object_pairs_hook=unique_object)
+        allowed = {"Domain": {"domain", "domain_suffix", "domain_regex"}, "IP": {"ip_cidr"}, "Process": {"process_name"}}[kind]
+        if not isinstance(data, dict) or set(data) != {"version", "rules"} or data["version"] != 3 or not isinstance(data["rules"], list) or not data["rules"]:
+            raise BuildError("Expected a nonempty sing-box version 3 ruleset")
+        for rule in data["rules"]:
+            if not isinstance(rule, dict) or not rule or not rule.keys() <= allowed:
+                raise BuildError(f"sing-box rule contains fields outside {kind}")
+            for field, values in rule.items():
+                if not isinstance(values, list) or not values or any(not isinstance(value, str) or not value for value in values):
+                    raise BuildError(f"sing-box {field} must be a nonempty string array")
+                if field == "domain_regex":
+                    for value in values:
+                        re.compile(value)
+                else:
+                    converted = json.loads(render_json_rules([Rule("PROCESS-NAME," + value if field == "process_name" else value) for value in values]))["rules"]
+                    canonical = {value for entry in converted for value in entry.get(field, [])}
+                    if canonical != set(values):
+                        raise BuildError(f"Invalid sing-box {field} values")
+        return
+    if key == "clash":
+        body = [line.rstrip() for line in text.splitlines() if line.strip() and not line.lstrip().startswith("#")]
+        if not body or body[0] != "payload:":
+            raise BuildError("Expected the generated YAML payload")
+        for line in body[1:]:
+            entry = re.fullmatch(r"  - (\S.*)", line)
+            if not entry:
+                raise BuildError("Unsupported generated YAML payload indentation or entry")
+            scalar = entry[1]
+            if scalar.startswith('"'):
+                if not isinstance(json.loads(scalar), str):
+                    raise BuildError("YAML payload values must be strings")
+            elif scalar.startswith("'"):
+                if not re.fullmatch(r"'(?:[^']|'')*'", scalar):
+                    raise BuildError("Invalid quoted YAML string")
+            elif scalar[0] in "&*!{}[],|>@`%" or re.match(r"[-?:](?:\s|$)", scalar) or re.search(r":(?:\s|$)|(?:^|\s)#", scalar) or re.fullmatch(r"(?i:true|false|null|~|yes|no|on|off|[-+]?(?:0[xob][0-9a-f_]+|[0-9_]+(?:\.[0-9_]*)?(?:e[-+]?[0-9]+)?|\.[0-9_]+|\.inf|\.nan))|[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}", scalar):
+                raise BuildError("YAML payload requires an unambiguous plain string or quoted string")
+        converted = convert(text, kind)
+        if not converted:
+            raise BuildError("YAML contains no matching rules")
+        if body != converted["clash"].decode("utf-8").splitlines():
+            raise BuildError("YAML payload syntax disagrees with the generated string rules")
+        return
+    group = key if kind in {"SurgeSplit", "DomainSet"} else kind
+    parsed = split_surge(text, "DomainSet" if group == "Domain" else "SurgeSplit")
+    if set(parsed) != {group}:
+        raise BuildError(f"Surge file must contain only nonempty {group} rules")
+    if group == "Process":
+        convert(text, "Process")
+
+
+def validate_mihomo_references(text: str, selected: dict, sources: dict, javascript: bool) -> None:
+    """Read only the scalar provider templates and rule list used by these profiles."""
+    # ponytail: existing scalar templates only; use a real parser if profile syntax grows.
+    marker = "// Sync-disabled: " if javascript else "# Sync-disabled: "
+    lines = text.splitlines(keepends=True)
+    disabled = []
+    normalized = []
+    for line in lines:
+        prefix = line[:len(line) - len(line.lstrip())]
+        flagged = line.lstrip().startswith(marker)
+        disabled.append(flagged)
+        normalized.append(prefix + line.lstrip()[len(marker):] if flagged else line)
+    plain = "".join(normalized)
+
+    def section(pattern: str, label: str) -> re.Match:
+        matches = list(re.finditer(pattern, plain, re.M | re.S))
+        if len(matches) != 1:
+            raise BuildError(f"Missing or duplicate {label}")
+        return matches[0]
+
+    def inactive(match: re.Match) -> bool:
+        first = plain.count("\n", 0, match.start())
+        flags = disabled[first:first + len(match[0].splitlines())]
+        if any(flags) and not all(flags):
+            raise BuildError("Provider or rule is only partly Sync-disabled")
+        return all(flags)
+
+    def yaml_fields(body: str) -> dict:
+        result = {}
+        for field in body.splitlines():
+            match = re.fullmatch(r'\s*([a-zA-Z_-]+):\s*("(?:[^"\\]|\\.)*"|[a-zA-Z0-9_-]+)\s*,?\s*', field)
+            if not match or match[1] in result:
+                raise BuildError(f"Unsupported or duplicate YAML provider field: {field.strip()}")
+            value = match[2]
+            result[match[1]] = json.loads(value) if value.startswith('"') else value
+        return result
+
+    templates = {}
+    for name in ("ruleProviderYaml", "ruleProviderMrs"):
+        if javascript:
+            match = section(r'^const ' + name + r' = (\{\n.*?^\});\n', name)
+            templates[name] = json.loads(match[1], object_pairs_hook=unique_object)
+        else:
+            match = section(r'^  ' + name + r': &' + name + r' \{ ([^\n{}]+) \}\n', name)
+            templates[name] = yaml_fields("\n".join(match[1].split(",")))
+        if not isinstance(templates[name], dict) or templates[name].get("type") != "http" or templates[name].get("format") != ("yaml" if name.endswith("Yaml") else "mrs"):
+            raise BuildError(f"Invalid {name} type/format")
+    container = section(r'^const ruleProviders = \{\n(.*?)^\};\n' if javascript else r'^rule-providers:\n(.*?)(?=^\S|\Z)', "rule-providers")
+    pattern = r'^  "([A-Za-z0-9_-]+)": \{\n((?:^    [^\n]*\n)*)^  \},?\n' if javascript else r'^  ([A-Za-z0-9_-]+):\n    \{\n((?:^      [^\n]*\n)*)^    \}\n'
+    providers = {}
+    cursor = container.start(1)
+    for match in re.finditer(pattern, plain, re.M):
+        if not container.start(1) <= match.start() < container.end(1):
+            continue
+        if plain[cursor:match.start()].strip() or match[1] in providers:
+            raise BuildError(f"Unsupported or duplicate provider template: {match[1]}")
+        body = match[2]
+        inheritance = re.fullmatch(r'    \.\.\.(ruleProviderYaml|ruleProviderMrs),\n' if javascript else r'      <<: \*(ruleProviderYaml|ruleProviderMrs),\n', body.splitlines(keepends=True)[0] if body else "")
+        if not inheritance:
+            raise BuildError(f"Unsupported provider inheritance: {match[1]}")
+        fields = body[len(inheritance[0]):]
+        attributes = json.loads("{" + re.sub(r',\s*\Z', '', fields) + "}", object_pairs_hook=unique_object) if javascript else yaml_fields(fields)
+        providers[match[1]] = ({**templates[inheritance[1]], **attributes}, inactive(match))
+        cursor = match.end()
+    if plain[cursor:container.end(1)].strip():
+        raise BuildError("Unsupported rule-providers template syntax")
+    rules = section(r'^const rules = \[\n(.*?)^\];\n' if javascript else r'^rules:\n(.*?)(?=^\S|\Z)', "rules")
+    references = {}
+    cursor = rules.start(1)
+    for match in re.finditer(r'^  "[^\n]+"[,]?\n' if javascript else r'^  - [^\n]+\n', plain, re.M):
+        if not rules.start(1) <= match.start() < rules.end(1):
+            continue
+        if plain[cursor:match.start()].strip():
+            raise BuildError("Unsupported rules template syntax")
+        value = json.loads(match[0].strip().removesuffix(",")) if javascript else match[0].strip()[2:]
+        fields = [field.strip() for field in value.split(",")]
+        if fields[0] == "RULE-SET":
+            if len(fields) < 3 or not fields[2] or fields[1] not in providers:
+                raise BuildError(f"Invalid RULE-SET reference: {value}")
+            references.setdefault(fields[1], []).append(inactive(match))
+        cursor = match.end()
+    if plain[cursor:rules.end(1)].strip():
+        raise BuildError("Unsupported rules template syntax")
+    legacy = {index for index, (_, _, kind) in selected.items() if kind in {"Domain", "IP", "Process"}}
+    for index, (attributes, _) in providers.items():
+        if "third_party/" in str(attributes.get("url", "")) and index not in legacy:
+            raise BuildError(f"Unregistered third-party provider: {index}")
+    for index in legacy:
+        name, url, kind = selected[index]
+        native = "mrs_" + index in selected
+        target_index, key = ("mrs_" + index, "mrs") if native else (index, "clash")
+        target_name, target_url, target_kind = selected[target_index]
+        path = possible_output_paths(target_name, target_kind, target_url)[key]
+        absent = key not in sources[target_index]["outputs"]
+        expected = {"type": "http", "format": "mrs" if native else "yaml", "behavior": {"Domain": "domain", "IP": "ipcidr", "Process": "classical"}[kind], "url": SURGE_URL + path, "path": "./ruleset/paloexiz/third_party/" + path.removeprefix("clash/")}
+        if index not in providers:
+            raise BuildError(f"Missing third-party provider: {index}")
+        attributes, off = providers[index]
+        for field, value in expected.items():
+            if attributes.get(field) != value:
+                raise BuildError(f"{index}: incorrect {field}: expected {value}")
+        if off != absent or not references.get(index) or any(flag != absent for flag in references[index]):
+            raise BuildError(f"{index}: provider/rule enable state disagrees with outputs")
+
+
+def validate_repository(root: Path, *, require_references: bool = True) -> None:
+    """Validate committed third-party files offline, without changing the repository."""
+    selected = targets()
+    manifest = "third_party/sources.json"
+    try:
+        sources = json.loads(read_repository_file(root, manifest), object_pairs_hook=unique_object)
+    except (ValueError, BuildError) as exc:
+        raise BuildError(f"{manifest}: {exc}") from exc
+    if not isinstance(sources, dict) or sources.keys() != selected.keys():
+        raise BuildError(f"{manifest}: sources disagree with fixed inventory")
+    registered = set()
+    for index, (name, url, kind) in selected.items():
+        source = sources[index]
+        expected = possible_output_paths(name, kind, url)
+        if not isinstance(source, dict) or set(source) != {"source", "sha256", "kind", "notices", "outputs"} or source.get("source") != url or source.get("kind") != kind or source.get("notices") != notice_path(url) or not isinstance(source.get("sha256"), str) or not re.fullmatch(r"[0-9a-f]{64}", source["sha256"]):
+            raise BuildError(f"{manifest}: {index}: invalid source/kind/notices/sha256 record")
+        outputs = source["outputs"]
+        if not isinstance(outputs, dict) or any(key not in expected or expected[key] != path for key, path in outputs.items()) or (kind not in {"SurgeSplit", "DomainSet"} and outputs not in ({}, expected)):
+            raise BuildError(f"{manifest}: {index}: outputs disagree with allowed paths")
+        read_repository_file(root, "third_party/" + source["notices"])
+        for key, relative in outputs.items():
+            path = "third_party/" + relative
+            try:
+                content = read_repository_file(root, path)
+                validate_rule_file(content, kind, key)
+                if key == "mrs" and hashlib.sha256(content).hexdigest() != source["sha256"]:
+                    raise BuildError("Native MRS sha256 disagrees with source record")
+            except (OSError, ValueError, UnicodeError, re.error, subprocess.SubprocessError, BuildError) as exc:
+                raise BuildError(f"{path}: {index}/{key}: {exc}") from exc
+            registered.add(path)
+    for folder in ("clash", "surge", "sing-box"):
+        base = root / "third_party" / folder
+        if not base.resolve().is_relative_to(root.resolve()):
+            raise BuildError(f"third_party/{folder}: path resolves outside the repository")
+        for path in base.rglob("*"):
+            relative = path.relative_to(root).as_posix()
+            if path.is_symlink() or getattr(path, "is_junction", lambda: False)():
+                raise BuildError(f"{relative}: linked rule artifacts are unsupported")
+            if not path.resolve().is_relative_to(root.resolve()):
+                raise BuildError(f"{relative}: path resolves outside the repository")
+            if path.is_file() and relative not in registered:
+                raise BuildError(f"{relative}: unregistered rule artifact")
+    relatives = ("client_conf/mihomo_configuration/mihomo_configuration.yaml", "client_conf/mihomo_override/mihomo_override.js", "client_conf/surge_configuration/surge_configuration.conf", "third_party/README.md", "third_party/README.zh-cn.md")
+    for relative in relatives:
+        if not require_references and not (root / relative).exists():
+            continue
+        try:
+            text = read_repository_file(root, relative).decode("utf-8").replace("\r\n", "\n")
+            if relative.endswith((".yaml", ".js")):
+                validate_mihomo_references(text, selected, sources, relative.endswith(".js"))
+            elif relative.endswith(".conf"):
+                surge = {path: group for index, (_, _, kind) in selected.items() if kind in {"SurgeSplit", "DomainSet"} for group, path in sources[index]["outputs"].items()}
+                for line in text.splitlines():
+                    if "third_party/" not in line or line.lstrip().startswith(("#", ";")):
+                        continue
+                    match = re.fullmatch(r'(DOMAIN-SET|RULE-SET), ([^, ]+), .+', line)
+                    path = match[2].removeprefix(SURGE_URL) if match else ""
+                    if not match or path not in surge or match[1] != ("DOMAIN-SET" if surge[path] == "Domain" else "RULE-SET"):
+                        raise BuildError(f"Invalid or unregistered Surge reference: {line}")
+            else:
+                tables = re.findall(r"<table>\n.*?</table>", text, re.S)
+                if len(tables) != 3:
+                    raise BuildError("Expected the existing three client tables")
+                for table, fmt in zip(tables, ("sing-box", "clash", "surge")):
+                    legacy = table.split(TABLE_START)[0]
+                    expected_rows = {name.removesuffix("_" + kind).casefold() for name, url, kind in selected.values() if kind in {"Domain", "IP", "Process"} and fmt in possible_output_paths(name, kind, url)}
+                    rows = re.findall(r'<tr align="center">\n    <td>([^<>]+)</td>', legacy)
+                    if {name.casefold() for name in rows} != expected_rows or len(rows) != len(expected_rows):
+                        raise BuildError(f"{fmt}: missing, duplicate or unregistered generated row")
+                allowed = {path for source in sources.values() for path in source["outputs"].values()}
+                for anchor in re.findall(r'<a\b[^>]*>', text):
+                    match = re.fullmatch(r'<a href="([^"]+)">', anchor)
+                    if not match:
+                        raise BuildError(f"Unsupported README reference syntax: {anchor}")
+                    url = match[1]
+                    path = next((url.removeprefix(base) for base in (SURGE_URL, "https://raw.githubusercontent.com/Paloexiz/blacklist-rules/main/third_party/") if url.startswith(base)), None)
+                    if path not in allowed:
+                        raise BuildError(f"Invalid or unregistered README reference: {url}")
+            # Render one existing object so a render failure names the affected file.
+            candidates = reference_candidates(root, selected, sources, only=root / relative)
+            if candidates[root / relative].decode("utf-8").replace("\r\n", "\n") != text:
+                raise BuildError("Generated references disagree with source outputs")
+        except (ValueError, UnicodeError, BuildError) as exc:
+            raise BuildError(f"{relative}: {exc}") from exc
+    print(f"Validated {len(selected)} sources and {len(registered)} rule files offline.")
 
 
 def publish(root: Path, candidates: dict[Path, bytes], obsolete: set[Path]) -> tuple[set[Path], set[Path]]:
@@ -651,12 +993,66 @@ def publish(root: Path, candidates: dict[Path, bytes], obsolete: set[Path]) -> t
     return set(changed), removed
 
 
+def report_retained(retained: list[tuple[str, str]]) -> None:
+    if not retained or os.environ.get("GITHUB_ACTIONS") != "true":
+        return
+    for index, url in retained:
+        message = f"{index}: upstream returned 404/410; retaining last successful files ({url})"
+        escaped = message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+        print("::warning::" + escaped)
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as output:
+            output.write("\n### Retained upstream sources\n\n<ul>\n")
+            for index, url in retained:
+                label = html.escape(" ".join(index.splitlines()))
+                address = html.escape(" ".join(url.splitlines()))
+                output.write(f"<li>{label}: {address} (HTTP 404/410; last successful files retained)</li>\n")
+            output.write("</ul>\n")
+
+
+def reporting_self_test() -> None:
+    with tempfile.TemporaryDirectory(prefix="ai-agent-retained-summary-") as temporary:
+        summary = Path(temporary) / "ai-agent-summary.md"
+        captured = io.StringIO()
+        with patch.dict(os.environ, {"GITHUB_ACTIONS": "false", "GITHUB_STEP_SUMMARY": str(summary)}), contextlib.redirect_stdout(captured):
+            report_retained([("source", "https://example.invalid/rules")])
+        assert not summary.exists() and not captured.getvalue()
+        with patch.dict(os.environ, {"GITHUB_ACTIONS": "true", "GITHUB_STEP_SUMMARY": str(summary)}), contextlib.redirect_stdout(captured):
+            report_retained([])
+            assert not summary.exists() and not captured.getvalue()
+            report_retained([("first", "https://example.invalid/first"), ("bad%name\n::error::injected", "https://example.invalid/<script>\r\nsecond")])
+        warnings = captured.getvalue().splitlines()
+        assert len(warnings) == 2 and all(line.startswith("::warning::") for line in warnings)
+        assert "bad%25name%0A::error::injected" in warnings[1] and "%0D%0A" in warnings[1]
+        text = summary.read_text(encoding="utf-8")
+        assert text.count("<li>") == 2 and "&lt;script&gt;" in text and "<script>" not in text
+        captured = io.StringIO()
+        with patch.dict(os.environ, {"GITHUB_ACTIONS": "true", "GITHUB_STEP_SUMMARY": ""}), contextlib.redirect_stdout(captured):
+            report_retained([("first", "https://example.invalid/first")])
+        assert captured.getvalue().startswith("::warning::")
+        summary.unlink()
+        root = Path(temporary) / "ai-agent-repository"
+        selected = {"adrules": UPSTREAM_RULES["adrules"]}
+        captured = io.StringIO()
+        with patch.dict(UPSTREAM_RULES, selected, clear=True), patch.dict(os.environ, {"GITHUB_ACTIONS": "true", "GITHUB_STEP_SUMMARY": str(summary)}), contextlib.redirect_stdout(captured):
+            sync(root, lambda url: "example.test\n")
+            assert not summary.exists() and "::warning::" not in captured.getvalue()
+            before = {path: path.read_bytes() for path in root.rglob("*") if path.is_file()}
+            sync(root, lambda url: None)
+            assert before == {path: path.read_bytes() for path in root.rglob("*") if path.is_file()}
+            assert "[KEEP] adrules" in captured.getvalue() and "::warning::adrules:" in captured.getvalue()
+            assert "adrules" in summary.read_text(encoding="utf-8")
+    print("Retained-source reporting, local execution and command escaping checks passed.")
+
+
 def sync(root: Path, fetch=download) -> None:
     selected = targets()
     candidates: dict[Path, bytes] = {}
     obsolete: set[Path] = set()
     sources = {}
     previous_sources = None
+    retained = []
     urls = list(dict.fromkeys(url for _, url, _ in selected.values()))
     # Validate every source and format before changing outputs; licenses remain fixed copies.
     with ThreadPoolExecutor(max_workers=4) as executor:
@@ -679,10 +1075,10 @@ def sync(root: Path, fetch=download) -> None:
             if previous.get("source") != url or previous.get("kind") != kind or not valid_outputs or (not split and not complete) or not all((root / "third_party" / path).is_file() for path in outputs.values()):
                 raise BuildError(f"Missing upstream has no matching published copy: {index}")
             sources[index] = previous
+            retained.append((index, url))
             print(f"[KEEP] {index}: upstream missing; retaining last successful files")
             continue
-        owner = url.split("/")[3]
-        notice_path = {"MetaCubeX": "licenses/MetaCubeX/LICENSE", "peiyingyao": "licenses/Rule-for-OCD/LICENSE", "Loyalsoldier": "licenses/Loyalsoldier/LICENSE", "Cats-Team": "NOTICE.md", "blackmatrix7": "licenses/blackmatrix7-LICENSE", "coderbean": "NOTICE.md"}[owner]
+        notice = notice_path(url)
         native = kind in {"MrsDomain", "MrsIP"}
         if native:
             if not isinstance(text, bytes):
@@ -694,10 +1090,10 @@ def sync(root: Path, fetch=download) -> None:
             converted = split_surge(text, kind) if split else convert(text, kind)
             converted = {key: content for key, content in converted.items() if key in expected}
         obsolete.update(root / "third_party" / path for group, path in expected.items() if group not in converted)
-        sources[index] = {"source": url, "sha256": hashlib.sha256(text if native else text.encode("utf-8")).hexdigest(), "kind": kind, "notices": notice_path, "outputs": {key: expected[key] for key in converted}}
+        sources[index] = {"source": url, "sha256": hashlib.sha256(text if native else text.encode("utf-8")).hexdigest(), "kind": kind, "notices": notice, "outputs": {key: expected[key] for key in converted}}
         for key, content in converted.items():
             if not native and (split or key != "sing-box"):
-                content = f"# Converted by blacklist-rules; matching rules retain upstream ownership.\n# Source: {url}\n# Notices: third_party/{notice_path}\n".encode("utf-8") + content
+                content = f"# Converted by blacklist-rules; matching rules retain upstream ownership.\n# Source: {url}\n# Notices: third_party/{notice}\n".encode("utf-8") + content
             candidates[root / "third_party" / expected[key]] = content
     rule_count = len(candidates)
     candidates.update(reference_candidates(root, selected, sources))
@@ -710,20 +1106,14 @@ def sync(root: Path, fetch=download) -> None:
     for path in sorted(removed):
         print(f"[REMOVE] {path.relative_to(root)}: type no longer contains rules")
     print(f"Checked {len(selected)} sources; generated {rule_count} rule files.")
+    report_retained(retained)
 
 
+@patch.dict(os.environ, {"GITHUB_ACTIONS": "false"})
 def self_test() -> None:
     self_check()
-    for status in (404, 410):
-        with patch(__name__ + ".urlopen", side_effect=HTTPError("https://example.com", status, "Missing", None, None)):
-            assert download("https://example.com") is None
-    with patch(__name__ + ".urlopen", side_effect=HTTPError("https://example.com", 503, "Unavailable", None, None)):
-        try:
-            download("https://example.com")
-        except HTTPError:
-            pass
-        else:
-            raise AssertionError("Transient upstream error was ignored")
+    download_self_test()
+    reporting_self_test()
     domain = convert('payload:\n  - "+.example.com"\n  - exact.test\n', "Domain")
     assert json.loads(domain["sing-box"])["rules"][0]["domain"] == ["example.com", "exact.test"]
     assert domain["surge"] == b".example.com\nexact.test\n"
@@ -1014,15 +1404,192 @@ def self_test() -> None:
         else:
             raise AssertionError("Download failure was ignored")
         assert before == {path: path.read_bytes() for path in root.rglob("*") if path.is_file()}
+    repository_self_test()
     print("Fixed inventory, three-format conversion, complete type splitting, upstream deletion and missing-source retention passed.")
+
+
+@patch.dict(os.environ, {"GITHUB_ACTIONS": "false"})
+def repository_self_test() -> None:
+    for text in ("payload:\n  - exact.test\n  - .example.com\n", '# Rules\r\npayload:\r\n  # Wildcard\r\n  - "*.example.com"\r\n'):
+        validate_rule_file(text.encode("utf-8"), "Domain", "clash")
+    for text, kind in (("payload:\n  - *.example.com\n", "Domain"), ("payload:\n- example.com\n", "Domain"), ("payload:\n    - example.com\n", "Domain"), ("payload:\n  - true\n", "Domain"), ("payload:\n  - null\n", "Domain"), ("payload:\n  - 123\n", "Domain"), ("payload:\n  - 0x12\n", "Domain"), ("payload:\n  - .inf\n", "Domain"), ("payload:\n  - 2026-10-06\n", "Domain"), ("payload:\n  - [example.com]\n", "Domain"), ("payload:\n  - {domain: example.com}\n", "Domain"), ("payload:\n  - &name example.com\n", "Domain"), ("payload:\n  - !!str example.com\n", "Domain"), ("payload:\n  - PROCESS-NAME,App: Name\n", "Process"), ("payload:\n  - PROCESS-NAME,App # note\n", "Process")):
+        try:
+            validate_rule_file(text.encode("utf-8"), kind, "clash")
+        except BuildError:
+            pass
+        else:
+            raise AssertionError(f"Invalid original YAML syntax accepted: {text}")
+    selected = {index: UPSTREAM_RULES[index] for index in ("private_domain", "mrs_private_domain", "private_ip", "applications", "surge_ruleforocd_steam")}
+    mrs = base64.b64decode("KLUv/QQA9QEAxAJNUlMBAAKwAAEAAGtVVVVVVAAAABdtdG9zY2UudGUubHRwY21hYXh4ZWUuKwYAIKBOcisjahJgIZfMaQF3VE62")
+    samples = {url: {"Domain": ".example.com", "IP": "192.0.2.0/24", "Process": "PROCESS-NAME,App.exe", "SurgeSplit": "DOMAIN-SUFFIX,example.com\nDOMAIN-KEYWORD,example\n", "MrsDomain": mrs}[kind] for _, url, kind in selected.values()}
+    native_links = True
+    with tempfile.TemporaryDirectory(prefix="ai-agent-repository-check-") as temporary, patch.dict(UPSTREAM_RULES, selected, clear=True), patch(__name__ + ".urlopen", side_effect=AssertionError("Offline checks must not download")), contextlib.redirect_stdout(io.StringIO()):
+        root = Path(temporary)
+        for notice in {notice_path(url) for _, url, _ in selected.values()}:
+            path = root / "third_party" / notice
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text("Fixture upstream notice\n", encoding="utf-8")
+        for javascript, relative in ((False, "client_conf/mihomo_configuration/mihomo_configuration.yaml"), (True, "client_conf/mihomo_override/mihomo_override.js")):
+            providers, rules = [], []
+            for index, (name, url, kind) in selected.items():
+                if kind not in {"Domain", "IP", "Process"}:
+                    continue
+                native = "mrs_" + index in selected
+                target_name, target_url, target_kind = selected["mrs_" + index] if native else (name, url, kind)
+                path = possible_output_paths(target_name, target_kind, target_url)["mrs" if native else "clash"]
+                template = "ruleProviderMrs" if native else "ruleProviderYaml"
+                behavior = {"Domain": "domain", "IP": "ipcidr", "Process": "classical"}[kind]
+                cache = "./ruleset/paloexiz/third_party/" + path.removeprefix("clash/")
+                if javascript:
+                    providers.append(f'  "{index}": {{\n    ...{template},\n    "behavior": "{behavior}",\n    "url": "{SURGE_URL}{path}",\n    "path": "{cache}"\n  }},\n')
+                    rules.append(f'  "RULE-SET, {index}, Custom Policy",\n')
+                else:
+                    providers.append(f'  {index}:\n    {{\n      <<: *{template},\n      behavior: {behavior},\n      url: "{SURGE_URL}{path}",\n      path: "{cache}",\n    }}\n')
+                    rules.append(f'  - RULE-SET, {index}, Custom Policy\n')
+            text = ('const ruleProviderYaml = {\n  "type": "http",\n  "format": "yaml",\n  "interval": 86400\n};\nconst ruleProviderMrs = {\n  "type": "http",\n  "format": "mrs",\n  "interval": 86400\n};\nconst ruleProviders = {\n' + "".join(providers) + '};\nconst rules = [\n' + "".join(rules) + '];\n') if javascript else ('rules:\n' + "".join(rules) + 'rule-anchor:\n  ruleProviderYaml: &ruleProviderYaml { type: http, interval: 86400, format: yaml }\n  ruleProviderMrs: &ruleProviderMrs { type: http, interval: 86400, format: mrs }\nrule-providers:\n' + "".join(providers))
+            path = root / relative
+            path.parent.mkdir(parents=True)
+            path.write_text(text, encoding="utf-8")
+        profile = root / "client_conf/surge_configuration/surge_configuration.conf"
+        profile.parent.mkdir(parents=True)
+        profile.write_text(f"[Rule]\n# > steam\nDOMAIN-SET, {SURGE_URL}surge/peiyingyao/steam/steam_domain.list, Custom Steam\n", encoding="utf-8")
+        stems = dict.fromkeys(name.removesuffix("_" + kind) for name, _, kind in selected.values() if kind in {"Domain", "IP", "Process"})
+        for filename in ("README.md", "README.zh-cn.md"):
+            table = "<table>\n" + "".join(f'  <tr align="center">\n    <td>{stem}</td>\n    <td></td>\n    <td></td>\n  </tr>\n' for stem in stems)
+            (root / "third_party" / filename).write_text(table + "</table>\n" + table + "</table>\n" + table + TABLE_START + "\n" + TABLE_END + "\n</table>\n", encoding="utf-8")
+        sync(root, samples.__getitem__)
+
+        def snapshot() -> dict:
+            return {path.relative_to(root): path.read_bytes() for path in root.rglob("*") if path.is_file()}
+
+        def check() -> None:
+            before = snapshot()
+            validate_repository(root)
+            assert snapshot() == before, "Offline validation changed repository files"
+
+        def reject(relative: str, content: bytes | None) -> None:
+            path = root / relative
+            original = path.read_bytes() if path.is_file() else None
+            if content is None:
+                path.unlink()
+            else:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(content)
+            before = snapshot()
+            try:
+                validate_repository(root)
+            except BuildError as exc:
+                assert relative in str(exc), (relative, str(exc))
+            else:
+                raise AssertionError(f"Invalid repository accepted: {relative}")
+            assert snapshot() == before, "Failed validation changed repository files"
+            if original is None:
+                path.unlink()
+            else:
+                path.write_bytes(original)
+
+        check()
+        for relative in ("client_conf/mihomo_configuration/mihomo_configuration.yaml", "client_conf/mihomo_override/mihomo_override.js", "client_conf/surge_configuration/surge_configuration.conf", "third_party/README.md", "third_party/README.zh-cn.md"):
+            path = root / relative
+            path.write_bytes(path.read_bytes().replace(b"\n", b"\r\n"))
+        check()
+        yaml = "third_party/clash/metacubex/private/private_domain.yaml"
+        reject(yaml, None)
+        reject(yaml, b"")
+        reject(yaml, b"payload:\n  - 192.0.2.0/24\n")
+        reject(yaml, b"payload:\n  - *.example.com\n")
+        reject(yaml, b"payload:\n  - -\n")
+        reject("third_party/sing-box/metacubex/private/private_domain.json", b'{"version":3,"rules":[{"ip_cidr":["192.0.2.0/24"]}]}')
+        reject("third_party/surge/peiyingyao/steam/steam_keyword.list", b"IP-ASN,64500\n")
+        reject("third_party/clash/metacubex/private/private_domain.mrs", b"Invalid native MRS\n")
+        reject("third_party/clash/unregistered.yaml", b"payload:\n  - example.com\n")
+        path = root / yaml
+        original = path.read_bytes()
+        target = root / "ai-agent-valid-domain.yaml"
+        target.write_bytes(original)
+        path.unlink()
+        try:
+            path.symlink_to(target)
+        except OSError:
+            native_links = False
+            path.write_bytes(original)
+        before = snapshot()
+        is_symlink = Path.is_symlink
+        with contextlib.nullcontext() if native_links else patch.object(Path, "is_symlink", autospec=True, side_effect=lambda checked: checked == path or is_symlink(checked)):
+            try:
+                validate_repository(root)
+            except BuildError as exc:
+                assert yaml in str(exc) and "linked" in str(exc)
+            else:
+                raise AssertionError("Linked committed rule file was accepted")
+        assert snapshot() == before, "Linked-file validation changed repository files"
+        path.unlink()
+        path.write_bytes(original)
+        target.unlink()
+        manifest = "third_party/sources.json"
+        original_sources = json.loads((root / manifest).read_text(encoding="utf-8"))
+        for field, value in (("source", "https://example.com/invalid"), ("kind", "IP"), ("notices", "../outside"), ("sha256", "invalid"), ("outputs", {"clash": "../outside.yaml"})):
+            changed = json.loads(json.dumps(original_sources))
+            changed["private_domain"][field] = value
+            reject(manifest, json.dumps(changed).encode("utf-8"))
+        changed = json.loads(json.dumps(original_sources))
+        changed["surge_ruleforocd_steam"]["outputs"] = {"unknown": None}
+        reject(manifest, json.dumps(changed).encode("utf-8"))
+        changed = json.loads(json.dumps(original_sources))
+        changed.pop("applications")
+        reject(manifest, json.dumps(changed).encode("utf-8"))
+        changed = json.loads(json.dumps(original_sources))
+        changed["mrs_private_domain"]["sha256"] = "0" * 64
+        # MRS failures name the actual binary and the mismatched record.
+        (root / manifest).write_text(json.dumps(changed), encoding="utf-8")
+        before = snapshot()
+        try:
+            validate_repository(root)
+        except BuildError as exc:
+            assert "private_domain.mrs" in str(exc) and "mrs_private_domain" in str(exc)
+        else:
+            raise AssertionError("MRS hash mismatch was accepted")
+        assert snapshot() == before, "Failed MRS validation changed repository files"
+        (root / manifest).write_text(json.dumps(original_sources), encoding="utf-8")
+        for relative in ("client_conf/mihomo_configuration/mihomo_configuration.yaml", "client_conf/mihomo_override/mihomo_override.js"):
+            original = (root / relative).read_bytes()
+            for before, after in ((b"private_domain.mrs", b"wrong.mrs"), (b"behavior: domain", b"behavior: ipcidr") if relative.endswith(".yaml") else (b'"behavior": "domain"', b'"behavior": "ipcidr"'), (b"format: mrs", b"format: yaml") if relative.endswith(".yaml") else (b'"format": "mrs"', b'"format": "yaml"')):
+                reject(relative, original.replace(before, after, 1))
+            reject(relative, original.replace(b"RULE-SET, private_domain, Custom Policy", b"RULE-SET, unknown_provider, Custom Policy", 1))
+            reject(relative, None)
+        relative = "client_conf/surge_configuration/surge_configuration.conf"
+        reject(relative, (root / relative).read_bytes().replace(b"DOMAIN-SET", b"RULE-SET", 1))
+        reject("third_party/README.md", (root / "third_party/README.md").read_bytes().replace(b"https://raw.githubusercontent.com/", b"https://example.com/", 1))
+        reject("third_party/README.zh-cn.md", None)
+        sync(root, samples.__getitem__)
+        old = snapshot()
+        sync(root, lambda url: None)
+        check()
+        assert snapshot() == old, "Valid retained upstream copies changed"
+        with patch(__name__ + ".validate_mrs", return_value=False):
+            sync(root, lambda url: "payload: []\n" if url == selected["private_domain"][1] else "# All rules removed\n" if url == selected["surge_ruleforocd_steam"][1] else samples[url])
+        check()
+    print("Offline repository checks passed: files, manifest, native MRS, references, CRLF, empty outputs and retained copies.")
+    if not native_links:
+        print("Native symlink creation unavailable; linked-file rejection tested with a controlled path predicate.")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--self-test", action="store_true")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--self-test", action="store_true")
+    mode.add_argument("--check", action="store_true", help="Validate committed files and references offline without writing")
+    mode.add_argument("--check-self-test", action="store_true", help="Run isolated offline-validation checks")
     args = parser.parse_args()
     try:
-        self_test() if args.self_test else sync(ROOT)
+        if args.self_test:
+            self_test()
+        elif args.check_self_test:
+            repository_self_test()
+        elif args.check:
+            validate_repository(ROOT)
+        else:
+            sync(ROOT)
     except (OSError, UnicodeError, ValueError, BuildError) as exc:
         parser.exit(1, f"[ERROR] {exc}\n")
 
