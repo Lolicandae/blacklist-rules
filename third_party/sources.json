@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "e497835b37c05ab8e9280f2f4d30c4a95e18bbf87c6e43c9e387228ef22848b9",
+    "sha256": "81f3465f00269a49699ef8d325dfa8d4d08fe42a765b0bd489156e2b28bfc8da",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -476,7 +476,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "edd50d98d5f759e10df15fb8e3a4ea38e32e59617fc6cec81ed178d3f5c9d3d9",
+    "sha256": "d7ceba9271da354fe598998a99444080c738112d4bba2ab8d6a9a3cd3980fa33",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -711,7 +711,7 @@
   },
   "surge_blackmatrix7_apple": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list",
-    "sha256": "7b2453f8dba3e9a35d67ea53e3c932b3ede766a2d2b28d719a3cd92f2146d854",
+    "sha256": "98f443186519710a030ef6e7c578c4c701d5a5668bc784c703b371b5a7216be8",
     "kind": "SurgeSplit",
     "notices": "licenses/blackmatrix7-LICENSE",
     "outputs": {
@@ -861,7 +861,7 @@
   },
   "surge_loyalsoldier_direct": {
     "source": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt",
-    "sha256": "1091125953a7e077033f16029223dd85243b8f5c04cd7412c545aa6a269007d0",
+    "sha256": "e791e9c473e9187de736734de95cbbd184b401754736588bb1c3f277b6ecac23",
     "kind": "DomainSet",
     "notices": "licenses/Loyalsoldier/LICENSE",
     "outputs": {
@@ -870,7 +870,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "5c5f7e6c9672c4a663df45b3468b87402846fd36be145f11c025c22101a2182e",
+    "sha256": "cd20361a8751fba61266833f82a8ec909e08c748e9b417e016965b5c3ad2d32d",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
