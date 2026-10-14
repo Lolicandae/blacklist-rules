@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "81f3465f00269a49699ef8d325dfa8d4d08fe42a765b0bd489156e2b28bfc8da",
+    "sha256": "22fd56fb66dc488d02e415b733d9999eadad937556e47c1eb553309d022ad923",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -278,7 +278,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "075e2246b76f57f85c568e3cd994f5f856c8d3c3a54f1c19cd694b556214683a",
+    "sha256": "c70479b5018c4d4221b625487996fd6678301930e4528b8995fad7fc68979ec5",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -465,7 +465,7 @@
   },
   "cn_domain": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml",
-    "sha256": "fe50d8caf6e99a52a5e028612cc0314a4118a56cb5007f3284ed29e95e955ab7",
+    "sha256": "9b0a6d440aa56aa86c34beb9de8f97227dfb59537289b1173b47b4629ace02e6",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -476,7 +476,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "d7ceba9271da354fe598998a99444080c738112d4bba2ab8d6a9a3cd3980fa33",
+    "sha256": "887b116d2f7e6c656ed00f58a53c5a05f1fe55102fc504a7635854d97f2f7dcd",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -870,7 +870,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "cd20361a8751fba61266833f82a8ec909e08c748e9b417e016965b5c3ad2d32d",
+    "sha256": "27e895e554dbf9788abdac5887360182d4a95126b9df13ecb4c61db0f1c777e0",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -1248,7 +1248,7 @@
   },
   "mrs_cn_domain": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs",
-    "sha256": "e92bda4f0b9f05623663a882331a320ab4e266cada2046d3828a94572cdded46",
+    "sha256": "701e8a630d959e99b28baab9b855559126463ce1a989dc30f21257ad3f35fb31",
     "kind": "MrsDomain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
