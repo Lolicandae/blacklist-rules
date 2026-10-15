@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "22fd56fb66dc488d02e415b733d9999eadad937556e47c1eb553309d022ad923",
+    "sha256": "bdd8bc0c28846457eec9fd06270120ca89f886e2f1660c2482b5a0d03c224b0f",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -140,7 +140,7 @@
   },
   "github": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.yaml",
-    "sha256": "1c6b5790a087e3497effe3751c0f4d41ff018c0176ad7e41d09d6d51bf64a1d9",
+    "sha256": "a4cde29dee08b937d6c2fabf256e032b9ceb3583942cffe05cf53fc9571d45b4",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -278,7 +278,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "c70479b5018c4d4221b625487996fd6678301930e4528b8995fad7fc68979ec5",
+    "sha256": "ca1ae67c869ff186cc7fbd893abed726762b219d93abc4a8b0323239b4191f86",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -377,7 +377,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "2da23ea7980af64b9506d2b769dd576508381dda1c2ccbc598e41724de4a925c",
+    "sha256": "10cceb54944b6a379fa1645a58f925a2f6b80ae8444d01e327ed77d48774c4e6",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -476,7 +476,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "887b116d2f7e6c656ed00f58a53c5a05f1fe55102fc504a7635854d97f2f7dcd",
+    "sha256": "f5378b108c1a00ed2fe9db7a175ba3fba216bfec66cb7e04af7476f8dac57a72",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -711,7 +711,7 @@
   },
   "surge_blackmatrix7_apple": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list",
-    "sha256": "98f443186519710a030ef6e7c578c4c701d5a5668bc784c703b371b5a7216be8",
+    "sha256": "ee24445288a5a05486d8a54d07cd0c15e620674e6282b23f2194c0e3c6f04a94",
     "kind": "SurgeSplit",
     "notices": "licenses/blackmatrix7-LICENSE",
     "outputs": {
@@ -870,7 +870,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "27e895e554dbf9788abdac5887360182d4a95126b9df13ecb4c61db0f1c777e0",
+    "sha256": "a142393759f577fa26f6688222b8dd7835bbaba2873f2f47c21253109666fce4",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
