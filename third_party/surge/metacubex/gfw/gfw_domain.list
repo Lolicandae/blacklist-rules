@@ -1,8 +1,8 @@
 # Converted by blacklist-rules; matching rules retain upstream ownership.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.yaml
 # Notices: third_party/licenses/MetaCubeX/LICENSE
-.kex.com
-.liuxiaotong.com
+.keycdn.com
+.google.mu
 .1000giri.net
 .10beasts.net
 .10musume.com
@@ -59,6 +59,7 @@
 .6parker.com
 .6parknews.com
 .7capture.com
+.7x24hrs.com
 .8-d.com
 .85cc.us
 .881903.com
@@ -624,7 +625,7 @@
 .cablegatesearch.net
 .cachefly.com
 .cachefly.net
-.000webhost.com
+.cacnw.com
 .cactusvpn.com
 .calebelston.com
 .calendarz.com
@@ -686,7 +687,7 @@
 .cdpeu.org
 .yadi.sk
 .cdpweb.org
-.cdpwu.org
+.kepard.com
 .cdw.com
 .cecc.gov
 .cellulo.info
@@ -1062,7 +1063,7 @@
 .dragonex.io
 .dragonsprings.org
 .drgan.net
-.dropbooks.tv
+.000webhost.com
 .dropbox.com
 .dropboxapi.com
 .dropboxusercontent.com
@@ -1705,7 +1706,7 @@
 .google.ml
 .google.mn
 .google.ms
-.google.mu
+.kex.com
 .google.mv
 .google.mw
 .google.mx
@@ -2214,10 +2215,10 @@
 .kebrum.com
 .kendatire.com
 .kenengba.com
-.kepard.com
-.cacnw.com
+.cdpwu.org
 .0rz.tw
-.myjs.tw
+.dropbooks.tv
+.kfor.com
 .khatrimaza.org
 .vpnshazam.com
 .kichiku-doujinko.com
@@ -2336,7 +2337,7 @@
 .listentoyoutube.com
 .litenews.hk
 .liuxiaobo.net
-.keycdn.com
+.liuxiaotong.com
 .livecoin.net
 .liveleak.com
 .livemint.com
@@ -2463,7 +2464,9 @@
 .meripet.com
 .voatibetan.com
 .messenger.com
+.meta.ai
 .meta.com
+.metaaivm.com
 .metafilter.com
 .metamask.io
 .metart.com
@@ -2592,7 +2595,7 @@
 .mycnnews.com
 .myeclipseide.com
 .myiphide.com
-.kfor.com
+.myjs.tw
 .mykomica.org
 .mymoe.moe
 .myparagliding.com
