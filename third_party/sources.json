@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "3a7b763cf8dc8c05414497375311dcf3b9bf5ec4bf7c8ac456a6f86c9ce8d1dc",
+    "sha256": "45ac88a9af3bc7d73740f32e82056e9ee06820945a6da01277a01fdb6ee2e111",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -278,7 +278,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "8258bfffa3498b14f862ece718e53d1870ef1dd30fb3cc94d2d31ef10a8d5806",
+    "sha256": "f0137ea00f4178ec3732713e0f255b4eb83d2d774be76618dfd506d354b7bc29",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -377,7 +377,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "21fee1a588ef81d49cb45714f7efa4d85c05af2b315443f6d55a4fbab6168391",
+    "sha256": "992da26f20b1ea13627a935316bf30938a4361a098244b4fe645d6789690b6e6",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -476,7 +476,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "6fe6916db47dfb559a72b3d5af32be74dfcb9f492a57cfe7188f3ed8393ba9d2",
+    "sha256": "f1da5bfac9d4dbc38876f10cce0e645ff984c45b903cfbdaa1eeaf0d267d32bd",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -485,7 +485,7 @@
   },
   "surge_blackmatrix7_lan": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list",
-    "sha256": "4defb821f8900e6a2c3b1e1b8d12fefc8cfc190f9e6f5cdd5219eda8ed304532",
+    "sha256": "65decf7849f37cbc66cff8e1155ea1d6344c748c6ead772db2f9e9c7e6a1d546",
     "kind": "SurgeSplit",
     "notices": "licenses/blackmatrix7-LICENSE",
     "outputs": {
@@ -870,7 +870,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "75d492f06c90591cac4828e26c94d68e43a6755de3923ed32f558b9bbd9aeb99",
+    "sha256": "a756e9ad94b375802205c34ddc56f166825137d7a39fb1a1d284ef75b87b65a8",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
