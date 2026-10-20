@@ -1,0 +1,9 @@
+# Converted by blacklist-rules; matching rules retain upstream ownership.
+# Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/canva.list
+# Notices: third_party/licenses/MetaCubeX/LICENSE
+.affinity.studio
+.canva.com
+.canvastatus.com
+.affinity.api.serifservices.com
+.affinity-beta.s3.amazonaws.com
+.affinity-lessons.s3.amazonaws.com

@@ -47,6 +47,7 @@ UPSTREAM_RULES: dict[str, tuple[str, str, str]] = {
     "private_ip": ("private_IP", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.yaml", "IP"),
     "private_domain": ("private_Domain", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml", "Domain"),
     "steam": ("Steam_Domain", "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Steam/Steam_OCD_Domain.txt", "Domain"),
+    "canva": ("canva_Domain", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/canva.yaml", "Domain"),
     "copilot_ip": ("Copilot_IP", "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Copilot/Copilot_OCD_IP.txt", "IP"),
     "copilot_domain": ("Copilot_Domain", "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Copilot/Copilot_OCD_Domain.txt", "Domain"),
     "gemini": ("google-gemini_Domain", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.yaml", "Domain"),
@@ -90,6 +91,7 @@ UPSTREAM_RULES: dict[str, tuple[str, str, str]] = {
     "surge_adrules": ("CatsTeam_AdRules", "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list", "SurgeSplit"),
     "surge_blackmatrix7_lan": ("Blackmatrix7_Lan", "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list", "SurgeSplit"),
     "surge_ruleforocd_steam": ("RuleForOCD_Steam", "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Surge/Steam/Steam.list", "SurgeSplit"),
+    "surge_metacubex_canva": ("MetaCubeX_canva", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/canva.list", "DomainSet"),
     "surge_blackmatrix7_adobeactivation": ("Blackmatrix7_AdobeActivation", "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdobeActivation/AdobeActivation.list", "SurgeSplit"),
     "surge_blackmatrix7_googlefcm": ("Blackmatrix7_GoogleFCM", "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleFCM/GoogleFCM.list", "SurgeSplit"),
     "surge_geosite2surge_z-library": ("Geosite2Surge_z-library", "https://raw.githubusercontent.com/coderbean/geosite2surge/main/surge-rules/z-library.list", "SurgeSplit"),
@@ -133,6 +135,7 @@ UPSTREAM_RULES.update({
     "mrs_private_ip": ("private_IP", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs", "MrsIP"),
     "mrs_private_domain": ("private_Domain", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs", "MrsDomain"),
     "mrs_steam": ("Steam_Domain", "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Steam/Steam_OCD_Domain.mrs", "MrsDomain"),
+    "mrs_canva": ("canva_Domain", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/canva.mrs", "MrsDomain"),
     "mrs_copilot_ip": ("Copilot_IP", "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Copilot/Copilot_OCD_IP.mrs", "MrsIP"),
     "mrs_copilot_domain": ("Copilot_Domain", "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Copilot/Copilot_OCD_Domain.mrs", "MrsDomain"),
     "mrs_gemini": ("google-gemini_Domain", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.mrs", "MrsDomain"),
@@ -194,7 +197,7 @@ SURGE_LOGICAL_LEAVES = set().union(*(types for group, types in SURGE_RULE_GROUPS
 
 # Existing example-profile sections; this maps sources, never their output types.
 SURGE_SECTIONS = {
-    "CatsTeam_AdRules": "adrules", "Blackmatrix7_Lan": "lan", "RuleForOCD_Steam": "steam",
+    "CatsTeam_AdRules": "adrules", "Blackmatrix7_Lan": "lan", "RuleForOCD_Steam": "steam", "MetaCubeX_canva": "canva",
     "Blackmatrix7_AdobeActivation": "adobeactivation", "Blackmatrix7_GoogleFCM": "googlefcm",
     "Geosite2Surge_z-library": "z-library", "MetaCubeX_linuxdo": "linuxdo",
     "Blackmatrix7_Twitter": "twitter", "Blackmatrix7_Claude": "anthropic", "Blackmatrix7_OpenAI": "openai",

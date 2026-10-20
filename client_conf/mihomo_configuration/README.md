@@ -89,6 +89,7 @@ This file is mainly designed to proxy these following:
   - `Microsoft`: `DIRECT` in default.
 - Other Groups
   - `Steam`: `DIRECT` in default.
+  - `Canva`: `Proxy` in default.
   - `Adobe Activation Service`: `REJECT` in default. You can choose `DIRECT` mode if you're using truly licensed Adobe software.
   - `AdBlock`: It will block spy connections and advertisements. `REJECT` in default.
   - `Domestic`: Include CN domains & IPs. `DIRECT` in default.

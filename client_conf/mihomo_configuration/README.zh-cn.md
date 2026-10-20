@@ -89,6 +89,7 @@
   - `Microsoft`：默认为 `DIRECT`。
 - 其他代理组
   - `Steam`：默认为 `DIRECT`。
+  - `Canva`：默认为 `Proxy`。
   - `Adobe Activation Service`：默认为 `REJECT`。如果您使用的是正版 Adobe 软件，可选择 `DIRECT` 模式。
   - `AdBlock`：用于阻止跟踪连接和广告；默认为 `REJECT`。
   - `Domestic`：包含中国大陆域名和 IP；默认为 `DIRECT`。

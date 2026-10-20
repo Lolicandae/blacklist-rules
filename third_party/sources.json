@@ -41,6 +41,16 @@
       "sing-box": "sing-box/peiyingyao/steam/steam_domain.json"
     }
   },
+  "canva": {
+    "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/canva.yaml",
+    "sha256": "82875e4c40ba74770f2047ee976e48e1bf201aaa449b9ac89bbe452de89bcba1",
+    "kind": "Domain",
+    "notices": "licenses/MetaCubeX/LICENSE",
+    "outputs": {
+      "clash": "clash/metacubex/canva/canva_domain.yaml",
+      "sing-box": "sing-box/metacubex/canva/canva_domain.json"
+    }
+  },
   "copilot_ip": {
     "source": "https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/master/rule/Clash/Copilot/Copilot_OCD_IP.txt",
     "sha256": "e27b94bb50bf9300e5f9cd77dd7e8449ccad896bd53a0a581f9a3e11e44331f2",
@@ -503,6 +513,15 @@
       "Keyword": "surge/peiyingyao/steam/steam_keyword.list"
     }
   },
+  "surge_metacubex_canva": {
+    "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/canva.list",
+    "sha256": "6fe98f224cb0ee56d809ed85227a0043a0b0858bc5a76467062e883c0e959f24",
+    "kind": "DomainSet",
+    "notices": "licenses/MetaCubeX/LICENSE",
+    "outputs": {
+      "Domain": "surge/metacubex/canva/canva_domain.list"
+    }
+  },
   "surge_blackmatrix7_adobeactivation": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdobeActivation/AdobeActivation.list",
     "sha256": "a8437015fd61d6d2480bbc33217bded475297f43f0e4906f3a1b737477bd6006",
@@ -902,6 +921,15 @@
     "notices": "licenses/Rule-for-OCD/LICENSE",
     "outputs": {
       "mrs": "clash/peiyingyao/steam/steam_domain.mrs"
+    }
+  },
+  "mrs_canva": {
+    "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/canva.mrs",
+    "sha256": "2d333991be8c2ac410dc18e566b0de59f2e6b14880ac06eb834d2c2fbf981cb1",
+    "kind": "MrsDomain",
+    "notices": "licenses/MetaCubeX/LICENSE",
+    "outputs": {
+      "mrs": "clash/metacubex/canva/canva_domain.mrs"
     }
   },
   "mrs_copilot_ip": {

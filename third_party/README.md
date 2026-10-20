@@ -54,6 +54,11 @@ Remote rule sets use the original URL with `type: remote` and `format: source`. 
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/steam/steam_domain.json">Domain Only</a></td>
   </tr>
   <tr align="center">
+    <td>canva</td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/canva/canva_domain.json">Domain Only</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/canva/canva_domain.json">Domain Only</a></td>
+  </tr>
+  <tr align="center">
     <td>Copilot</td>
     <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">IP Only</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">Domain Only</a></td>
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">IP Only</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">Domain Only</a></td>
@@ -256,6 +261,11 @@ MRS and YAML files share `clash/author/service/` directories, for example `clash
     <td>Steam</td>
     <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · Domain Only</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · Domain Only</a></td>
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · Domain Only</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · Domain Only</a></td>
+  </tr>
+  <tr align="center">
+    <td>canva</td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/canva/canva_domain.mrs">MRS · Domain Only</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/canva/canva_domain.yaml">YAML · Domain Only</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/canva/canva_domain.mrs">MRS · Domain Only</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/canva/canva_domain.yaml">YAML · Domain Only</a></td>
   </tr>
   <tr align="center">
     <td>Copilot</td>
@@ -604,6 +614,11 @@ Use `DOMAIN-SET` for Domain files and `RULE-SET` for the other types. Existing I
     <td>RuleForOCD_Steam</td>
     <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_domain.list">Domain Only</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_keyword.list">Keyword Only</a></td>
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_domain.list">Domain Only</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_keyword.list">Keyword Only</a></td>
+  </tr>
+  <tr align="center">
+    <td>MetaCubeX_canva</td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/canva/canva_domain.list">Domain Only</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/canva/canva_domain.list">Domain Only</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_AdobeActivation</td>

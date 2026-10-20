@@ -54,6 +54,11 @@
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/steam/steam_domain.json">仅域名</a></td>
   </tr>
   <tr align="center">
+    <td>canva</td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/metacubex/canva/canva_domain.json">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/metacubex/canva/canva_domain.json">仅域名</a></td>
+  </tr>
+  <tr align="center">
     <td>Copilot</td>
     <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">仅 IP</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">仅域名</a></td>
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_ip.json">仅 IP</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/sing-box/peiyingyao/copilot/copilot_domain.json">仅域名</a></td>
@@ -256,6 +261,11 @@ MRS、YAML 均放在 `clash/作者/服务/` 下，例如 `clash/peiyingyao/steam
     <td>Steam</td>
     <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · 仅域名</a></td>
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.yaml">YAML · 仅域名</a></td>
+  </tr>
+  <tr align="center">
+    <td>canva</td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/canva/canva_domain.mrs">MRS · 仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/clash/metacubex/canva/canva_domain.yaml">YAML · 仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/canva/canva_domain.mrs">MRS · 仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/canva/canva_domain.yaml">YAML · 仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Copilot</td>
@@ -604,6 +614,11 @@ Domain 文件使用 `DOMAIN-SET`，其他类型使用 `RULE-SET`。原有 IP 转
     <td>RuleForOCD_Steam</td>
     <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_domain.list">仅域名</a><br><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/peiyingyao/steam/steam_keyword.list">仅关键词</a></td>
     <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_domain.list">仅域名</a><br><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/peiyingyao/steam/steam_keyword.list">仅关键词</a></td>
+  </tr>
+  <tr align="center">
+    <td>MetaCubeX_canva</td>
+    <td><a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/third_party/surge/metacubex/canva/canva_domain.list">仅域名</a></td>
+    <td><a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/surge/metacubex/canva/canva_domain.list">仅域名</a></td>
   </tr>
   <tr align="center">
     <td>Blackmatrix7_AdobeActivation</td>

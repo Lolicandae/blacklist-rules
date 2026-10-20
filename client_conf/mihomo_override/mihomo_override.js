@@ -303,6 +303,12 @@ const ruleProviders = {
     "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/peiyingyao/steam/steam_domain.mrs",
     "path": "./ruleset/paloexiz/third_party/peiyingyao/steam/steam_domain.mrs"
   },
+  "canva": {
+    ...ruleProviderMrs,
+    "behavior": "domain",
+    "url": "https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/third_party/clash/metacubex/canva/canva_domain.mrs",
+    "path": "./ruleset/paloexiz/third_party/metacubex/canva/canva_domain.mrs"
+  },
   "copilot_ip": {
     ...ruleProviderMrs,
     "behavior": "ipcidr",
@@ -561,6 +567,7 @@ const rules = [
   "RULE-SET, blacklistrules-security_process, Safe Browse",
   "RULE-SET, blacklistrules-boost_game, Game Boosting",
   "RULE-SET, blacklistrules-boost_nogame, Proxy",
+  "RULE-SET, canva, Canva",
   "RULE-SET, steam, Steam",
   "RULE-SET, adobeactivation, Adobe Activation Service",
   "RULE-SET, googlefcm, Google FCM",
@@ -965,6 +972,13 @@ function main(config) {
       "name": "Steam",
       "type": "select",
       "proxies": [...defaultDirectGroups]
+    },
+    {
+      ...groupBaseOption,
+      "url": "https://www.canva.com",
+      "name": "Canva",
+      "type": "select",
+      "proxies": [...defaultProxyGroups]
     },
     {
       ...groupBaseOption,
