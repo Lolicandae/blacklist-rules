@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "423ad9ce2a3c7780c8049051c2b1dfeaf8d2df3b894f45c9790c4a5815f9ece4",
+    "sha256": "95ffb65ab189df617c532c899f79db6862f941b7e0378a406f3bf22fcc3a3681",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "2e6bc617ee700fedb65194d3e870cf11e1e950d9ebb36a79b281cb19e4d10bf0",
+    "sha256": "35c0827a4559ac0b14871d40b7abaf25ba656f34193da78bb65722627e0be179",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -889,7 +889,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "a45fef089e1abb08b6b23f428cddd042b8d98aba698974bf153d26493409b0b9",
+    "sha256": "19ecc1cc713b5557e70406dd9f97cb124637a8c27d31ac41cfa7db222054a15f",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
