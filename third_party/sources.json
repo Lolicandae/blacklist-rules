@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "f83c7e8875f3030bdab5fc5c426510aeb50e1488270ff23674ff8e23888dd568",
+    "sha256": "ad6cc6198fb901672729eb7433b267d88bc9b19fcbe19f8887840001db1cf575",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -288,7 +288,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "4eb38fd2f1a3c6b00b77a2a5fe8bba1b0d2e8f3d310229f2b5fe57ec0b17a53d",
+    "sha256": "4bc86ad8ae9b64c2bd3316a96e079083c0499fa78a452530fe1ea1aab6fcbc5b",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -332,7 +332,7 @@
   },
   "twitch": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitch.yaml",
-    "sha256": "a666bcd47d0b35485921269e4809e15b83fc478927b53a8aeb06edf9ec2c3770",
+    "sha256": "9b63fc83955f30a8a437fd1dbaf65bf03b5e24f974bcf7157ba1f8847582d73f",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -387,7 +387,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "8931d356f6fdd841a74cbc0bd19f32c1b8a2e97f27ab0e5dc2116b84d9c519d2",
+    "sha256": "82a29d0d026797b013bae26a2ef257dad4fcd64a3b56e7ba01b924b82bd77ef8",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "f2e07e01a3afc3708c3c8b1e10b888fae183342f4c1de8b38d2ff4f2179c470a",
+    "sha256": "7cd92b3092ce22d5604c7a7ae14812187d2b979f5eb544ed5abf832c338c6429",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -889,7 +889,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "dbead4d7de982d42f9f5b7dcb74a64bc384dbdd1c0538709373f7ed3dd6608cf",
+    "sha256": "f4bdc8823260d9eadca8934af82591da7d3e50295152c9b39655ac0dd2d95b9a",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -1168,7 +1168,7 @@
   },
   "mrs_twitch": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitch.mrs",
-    "sha256": "33e7854e6183bc9f6d8379c4e37a4411e354de9846db9b64bfe67fb539287975",
+    "sha256": "665312b3eea08e5b6d7807bed816b201f0d8c8ae06e2484ed32e9c1e3e14db88",
     "kind": "MrsDomain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
