@@ -4,16 +4,18 @@
 # NAME: Steam
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:15:08
+# UPDATED: 2026-10-24 04:55:18
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 51
-# TOTAL: 54
+# DOMAIN-SUFFIX: 54
+# IP-CIDR: 12
+# TOTAL: 69
 .cdn-ali.content.steamchina.com
 .cdn-qc.content.steamchina.com
 .cdn-ws.content.steamchina.com
 .csgo.wmsj.cn
 .dl.steam.clngaa.com
 .dl.steam.ksyna.com
+.dota2.com
 .dota2.wmsj.cn
 .edge.steam-dns.top.comcast.net
 .f3b7q2p3.ssl.hwcdn.net
@@ -39,6 +41,7 @@
 .steamcdn-a.akamaihd.net
 .steamcommunity-a.akamaihd.net
 .steamcommunity.com
+.steamconnecttest.com
 .steamcontent.tnkjmec.com
 .steamdeck.com
 .steamgames.com
@@ -57,5 +60,6 @@
 .steamuserimages-a.akamaihd.net
 .steamvideo-a.akamaihd.net
 .underlords.com
+.valve.net
 .valvesoftware.com
 .wmsjsteam.com
