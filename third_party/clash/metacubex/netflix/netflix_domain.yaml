@@ -2,7 +2,6 @@
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml
 # Notices: third_party/licenses/MetaCubeX/LICENSE
 payload:
-  - netflix.com.edgesuite.net
   - +.fast.com
   - +.netflix.ca
   - +.netflix.com
@@ -26,3 +25,4 @@ payload:
   - +.netflixdnstest8.com
   - +.netflixdnstest9.com
   - +.netflixdnstest10.com
+  - +.netflix.com.edgesuite.net

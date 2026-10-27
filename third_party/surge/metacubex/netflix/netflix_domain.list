@@ -1,7 +1,6 @@
 # Converted by blacklist-rules; matching rules retain upstream ownership.
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml
 # Notices: third_party/licenses/MetaCubeX/LICENSE
-netflix.com.edgesuite.net
 .fast.com
 .netflix.ca
 .netflix.com
@@ -25,3 +24,4 @@ netflix.com.edgesuite.net
 .netflixdnstest8.com
 .netflixdnstest9.com
 .netflixdnstest10.com
+.netflix.com.edgesuite.net
