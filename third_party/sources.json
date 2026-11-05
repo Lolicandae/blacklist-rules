@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "dc93481c1634076810127ae496b7496ad931831e36186d4af97c25003f0fe985",
+    "sha256": "9bfa6096fb37fda263490c32494d05fefb3fd3b465945c1566121c52fcc3a79c",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -288,7 +288,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "2a548671c12372edba294c7921d11d0d89e400c63a5ff6bd9befd7b1533690bf",
+    "sha256": "f9033d4e3aed4d5a05716565fe2de183d6c294dcda0795bdb5fdf1740b8388a2",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -387,7 +387,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "10cceb54944b6a379fa1645a58f925a2f6b80ae8444d01e327ed77d48774c4e6",
+    "sha256": "a116bc6b8b5dfbab333cd3b4eb7156b4c86883faf43d8a1d81c7652b5ddafef8",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -453,7 +453,7 @@
   },
   "gfw": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.yaml",
-    "sha256": "92d51b77dd3d6090e5c9f7e3aeec6645a89e0ca4c0773e6fe6e11691052ddd1a",
+    "sha256": "98682c0d65edb41247f8b809538064fc223df21ba07470959a84a1ac4a826829",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "9d2e77831171b08642841bc9b4e0424ea69fa685da65b8d08bc428fe2d396eda",
+    "sha256": "b9c0b81eab764b18ba4550029ad6cf06ad403247881377d8249f6c6bc1c3ca65",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -890,7 +890,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "3416272388a73b5d96affbacee488b25f1a194fb020358f503575cbc70cb1765",
+    "sha256": "8a1e2b0127f0ff5f2d3203813f10808c576d13470109918a6c4390d676264ad2",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -1268,7 +1268,7 @@
   },
   "mrs_gfw": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs",
-    "sha256": "0d052b9e103a85266782bcb1567db82ea0a9f5d3bfe58e77d7a8d5c0d4d10df3",
+    "sha256": "7fdc71a1e507be8219b2b6313029350c2816fe02e8e57ed3580926c32ef1e9e3",
     "kind": "MrsDomain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
