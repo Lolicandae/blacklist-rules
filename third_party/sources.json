@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "236e277e2d01da25d5f100b91130e6ecc41c4d066a5f92cdd19cb90f283fc5e9",
+    "sha256": "0f777565909604c570e5b645b2540235ba3e97e7eeea5c45a9720b8fbdb5093a",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "3d9a49b2f666acce6ff88bbf1fe98101c5e9d08589446e8b13f025e16a9c4c07",
+    "sha256": "3c44086b5275ab68aedaba5a13e5271362fcdcc67cb7ed751e4119c773332805",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -881,7 +881,7 @@
   },
   "surge_loyalsoldier_direct": {
     "source": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt",
-    "sha256": "1594e76559de7d020f7f3714bd03633358ee06a86781f7851c3fd96a940f7d25",
+    "sha256": "ec9ebcfb0f885d9f2911aa813f25f87198e9129c4fb4981944d1b88cb6ec39be",
     "kind": "DomainSet",
     "notices": "licenses/Loyalsoldier/LICENSE",
     "outputs": {
@@ -890,7 +890,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "c94c3c7389694bd0edf1cb1f77d2a02e0ae6aad08cfd584b0d068d160b7cba60",
+    "sha256": "298f61dd915445f5591924ce6f62191958f469a73ac0dd442d732643e7dc551f",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
