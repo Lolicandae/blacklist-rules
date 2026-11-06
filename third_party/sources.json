@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "9bfa6096fb37fda263490c32494d05fefb3fd3b465945c1566121c52fcc3a79c",
+    "sha256": "a2625ead632c35304b5a492e23f1a0c7fb8290fc7972c103c331bb0aedf15825",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -128,7 +128,7 @@
   },
   "twitter_ip": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.yaml",
-    "sha256": "4f53efe3880548f09645902b7ffa9f20a4542d96b1ed4618023293385fa998e5",
+    "sha256": "628e65668a500d5882b0bcaeb417c630d6a148b30c181943b7da3ad048b34a73",
     "kind": "IP",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -288,7 +288,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "f9033d4e3aed4d5a05716565fe2de183d6c294dcda0795bdb5fdf1740b8388a2",
+    "sha256": "76b22a9ab735d34d6330ac7392e5131519b02e16a0b4c208a93a5b43ed9a2e85",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -387,7 +387,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "a116bc6b8b5dfbab333cd3b4eb7156b4c86883faf43d8a1d81c7652b5ddafef8",
+    "sha256": "82a29d0d026797b013bae26a2ef257dad4fcd64a3b56e7ba01b924b82bd77ef8",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "b9c0b81eab764b18ba4550029ad6cf06ad403247881377d8249f6c6bc1c3ca65",
+    "sha256": "65ee7f8037e84f5ab58ac2510f81191074045e13f3611f37b71c49e27c0ef010",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -872,7 +872,7 @@
   },
   "surge_loyalsoldier_gfw": {
     "source": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt",
-    "sha256": "af66f63ab7ffcb56f53374b82c6e450cd98616b135e94e146c7956ba9315da72",
+    "sha256": "010d4889f58a130a2d4078ef40206e3c7a230739401f31212b8076af99c52e82",
     "kind": "DomainSet",
     "notices": "licenses/Loyalsoldier/LICENSE",
     "outputs": {
@@ -890,7 +890,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "8a1e2b0127f0ff5f2d3203813f10808c576d13470109918a6c4390d676264ad2",
+    "sha256": "4bba5a4de8be35211d56b0421a1070dff9fa72f50b67b9630427220e8e612010",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -998,7 +998,7 @@
   },
   "mrs_twitter_ip": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.mrs",
-    "sha256": "e8fc8a292d91cf630475a1e759d52acf81cf38bc7283329253be5914dc23630f",
+    "sha256": "16727d291489484dc0044f0b3b1e4195f82b9d529580b94d7ec1ed3354008bb4",
     "kind": "MrsIP",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
