@@ -25,6 +25,7 @@ SCOPES = {
         "third_party/sources.json", "third_party/README.md", "third_party/README.zh-cn.md",
         "client_conf/mihomo_configuration/mihomo_configuration.yaml",
         "client_conf/mihomo_override/mihomo_override.js",
+        "client_conf/mihomo_override/mihomo_override_no_dns.js",
         "client_conf/surge_configuration/surge_configuration.conf",
     ),
 }
@@ -235,6 +236,7 @@ def self_test() -> None:
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(content, encoding="utf-8")
         if mode == "sync":
+            (root / "client_conf/mihomo_override/mihomo_override_no_dns.js").write_text(content, encoding="utf-8")
             print("::warning::ai-agent retained-source test")
         if data.get("stray"):
             (root / data["stray"]).write_text("unexpected", encoding="utf-8")
@@ -260,6 +262,7 @@ def self_test() -> None:
                 "rule_sources/ai-agent-source.json": json.dumps({"build": "one", "sync": "one"}),
                 "artifact/ai-agent-build.txt": "old-build",
                 "third_party/clash/ai-agent-sync.txt": "old-sync",
+                "client_conf/mihomo_override/mihomo_override_no_dns.js": "old-sync",
                 "README.md": "original",
                 ".gitignore": "ai-agent-ignored.txt\n",
             }.items():
@@ -323,6 +326,7 @@ def self_test() -> None:
         assert "ai-agent-self-test-only" not in captured.getvalue() and "ai-agent-check-only" not in captured.getvalue()
         assert text_git(remote, "show", "main:artifact/ai-agent-build.txt") == "VERSION:one"
         assert text_git(remote, "show", "main:third_party/clash/ai-agent-sync.txt") == "VERSION:one"
+        assert text_git(remote, "show", "main:client_conf/mihomo_override/mihomo_override_no_dns.js") == "VERSION:one"
         count = text_git(remote, "rev-list", "--count", "main")
         assert publish(root, "build", "main") == "unchanged"
         assert text_git(remote, "rev-list", "--count", "main") == count

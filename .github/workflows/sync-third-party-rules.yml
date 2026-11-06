@@ -12,6 +12,7 @@ on:
       - "workflow_scripts/sync_third_party_rules.py"
       - "workflow_scripts/build_rules.py"
       - "workflow_scripts/publish_generated_rules.py"
+      - "workflow_scripts/check_mihomo_override.js"
       - "third_party/**"
       - "client_conf/**/*.yaml"
       - "client_conf/**/*.js"
@@ -22,6 +23,7 @@ on:
       - "workflow_scripts/sync_third_party_rules.py"
       - "workflow_scripts/build_rules.py"
       - "workflow_scripts/publish_generated_rules.py"
+      - "workflow_scripts/check_mihomo_override.js"
       - ".github/workflows/sync-third-party-rules.yml"
       - "third_party/**"
       - "client_conf/**/*.yaml"
@@ -47,6 +49,8 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+      - name: Check Mihomo override variants
+        run: node workflow_scripts/check_mihomo_override.js
       - name: Set up Mihomo for native MRS validation
         shell: bash
         run: |

@@ -37,7 +37,20 @@
       <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_override/mihomo_override.js">JavaScript</a>
     </td>
   </tr>
+  <tr align="center">
+    <td>
+      <a href="mihomo_override_no_dns.js">mihomo_override_no_dns.js</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo_override/mihomo_override_no_dns.js">JavaScript</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_override/mihomo_override_no_dns.js">JavaScript</a>
+    </td>
+  </tr>
 </table>
+
+> 关于`mihomo_override_no_dns.js`：该脚本不会覆盖订阅中的 DNS 设置。
 
 ## 关于“代理组”
 

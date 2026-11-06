@@ -53,6 +53,17 @@
   </tr>
   <tr align="center">
     <td>
+      <a href="mihomo_override/README.zh-cn.md">mihomo_override_no_dns.js</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo_override/mihomo_override_no_dns.js">JavaScript</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_override/mihomo_override_no_dns.js">JavaScript</a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
       <a href="surge_configuration/README.zh-cn.md">surge_configuration.conf</a>
     </td>
     <td>

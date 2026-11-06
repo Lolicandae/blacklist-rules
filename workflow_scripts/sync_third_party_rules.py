@@ -31,6 +31,11 @@ from build_rules import BuildError, Rule, render_items, render_json_rules, self_
 
 ROOT = Path(__file__).resolve().parents[1]
 FORMATS = {"clash": ".yaml", "surge": ".list", "sing-box": ".json"}
+MIHOMO_CLIENTS = (
+    ("client_conf/mihomo_configuration/mihomo_configuration.yaml", False),
+    ("client_conf/mihomo_override/mihomo_override.js", True),
+    ("client_conf/mihomo_override/mihomo_override_no_dns.js", True),
+)
 SOURCE_AUTHORS = {
     "Cats-Team/AdRules": "cats-team",
     "MetaCubeX/meta-rules-dat": "metacubex",
@@ -638,7 +643,7 @@ def reference_candidates(root: Path, selected: dict, sources: dict, only: Path |
     profile = root / "client_conf/surge_configuration/surge_configuration.conf"
     if (only is None or only == profile) and profile.is_file():
         result[profile] = render_surge_profile(profile.read_text(encoding="utf-8"), mirrors).encode("utf-8")
-    for relative, javascript in (("client_conf/mihomo_configuration/mihomo_configuration.yaml", False), ("client_conf/mihomo_override/mihomo_override.js", True)):
+    for relative, javascript in MIHOMO_CLIENTS:
         client = root / relative
         if (only is None or only == client) and client.is_file():
             result[client] = render_mihomo_references(client.read_text(encoding="utf-8"), selected, sources, javascript).encode("utf-8")
@@ -890,7 +895,7 @@ def validate_repository(root: Path, *, require_references: bool = True) -> None:
                 raise BuildError(f"{relative}: path resolves outside the repository")
             if path.is_file() and relative not in registered:
                 raise BuildError(f"{relative}: unregistered rule artifact")
-    relatives = ("client_conf/mihomo_configuration/mihomo_configuration.yaml", "client_conf/mihomo_override/mihomo_override.js", "client_conf/surge_configuration/surge_configuration.conf", "third_party/README.md", "third_party/README.zh-cn.md")
+    relatives = tuple(relative for relative, _ in MIHOMO_CLIENTS) + ("client_conf/surge_configuration/surge_configuration.conf", "third_party/README.md", "third_party/README.zh-cn.md")
     for relative in relatives:
         if not require_references and not (root / relative).exists():
             continue
@@ -1296,7 +1301,7 @@ def self_test() -> None:
             stem = name.removesuffix("_" + kind)
             with patch.dict(UPSTREAM_RULES, {index: selected[index]}, clear=True):
                 fixture_paths = possible_output_paths(name, kind, source_url)
-            for relative, javascript in (("client_conf/mihomo_configuration/mihomo_configuration.yaml", False), ("client_conf/mihomo_override/mihomo_override.js", True)):
+            for relative, javascript in MIHOMO_CLIENTS:
                 client = legacy / relative
                 client.parent.mkdir(parents=True, exist_ok=True)
                 url = SURGE_URL + fixture_paths["clash"]
@@ -1319,7 +1324,7 @@ def self_test() -> None:
                 original = {path: path.read_bytes() for path in legacy.rglob("*") if path.is_file()}
                 sync(legacy, lambda url: "payload: []\n")
                 assert all(not (legacy / "third_party" / path).exists() for path in possible_output_paths(name, kind, source_url).values())
-                for relative, javascript in (("client_conf/mihomo_configuration/mihomo_configuration.yaml", False), ("client_conf/mihomo_override/mihomo_override.js", True)):
+                for relative, javascript in MIHOMO_CLIENTS:
                     text = (legacy / relative).read_text(encoding="utf-8")
                     assert "Sync-disabled:" in text
                     active = "\n".join(line for line in text.splitlines() if not line.lstrip().startswith(("#", "//")))
@@ -1432,7 +1437,7 @@ def repository_self_test() -> None:
             path = root / "third_party" / notice
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text("Fixture upstream notice\n", encoding="utf-8")
-        for javascript, relative in ((False, "client_conf/mihomo_configuration/mihomo_configuration.yaml"), (True, "client_conf/mihomo_override/mihomo_override.js")):
+        for relative, javascript in MIHOMO_CLIENTS:
             providers, rules = [], []
             for index, (name, url, kind) in selected.items():
                 if kind not in {"Domain", "IP", "Process"}:
@@ -1451,7 +1456,7 @@ def repository_self_test() -> None:
                     rules.append(f'  - RULE-SET, {index}, Custom Policy\n')
             text = ('const ruleProviderYaml = {\n  "type": "http",\n  "format": "yaml",\n  "interval": 86400\n};\nconst ruleProviderMrs = {\n  "type": "http",\n  "format": "mrs",\n  "interval": 86400\n};\nconst ruleProviders = {\n' + "".join(providers) + '};\nconst rules = [\n' + "".join(rules) + '];\n') if javascript else ('rules:\n' + "".join(rules) + 'rule-anchor:\n  ruleProviderYaml: &ruleProviderYaml { type: http, interval: 86400, format: yaml }\n  ruleProviderMrs: &ruleProviderMrs { type: http, interval: 86400, format: mrs }\nrule-providers:\n' + "".join(providers))
             path = root / relative
-            path.parent.mkdir(parents=True)
+            path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(text, encoding="utf-8")
         profile = root / "client_conf/surge_configuration/surge_configuration.conf"
         profile.parent.mkdir(parents=True)
@@ -1492,7 +1497,7 @@ def repository_self_test() -> None:
                 path.write_bytes(original)
 
         check()
-        for relative in ("client_conf/mihomo_configuration/mihomo_configuration.yaml", "client_conf/mihomo_override/mihomo_override.js", "client_conf/surge_configuration/surge_configuration.conf", "third_party/README.md", "third_party/README.zh-cn.md"):
+        for relative in tuple(relative for relative, _ in MIHOMO_CLIENTS) + ("client_conf/surge_configuration/surge_configuration.conf", "third_party/README.md", "third_party/README.zh-cn.md"):
             path = root / relative
             path.write_bytes(path.read_bytes().replace(b"\n", b"\r\n"))
         check()
@@ -1554,7 +1559,7 @@ def repository_self_test() -> None:
             raise AssertionError("MRS hash mismatch was accepted")
         assert snapshot() == before, "Failed MRS validation changed repository files"
         (root / manifest).write_text(json.dumps(original_sources), encoding="utf-8")
-        for relative in ("client_conf/mihomo_configuration/mihomo_configuration.yaml", "client_conf/mihomo_override/mihomo_override.js"):
+        for relative, _ in MIHOMO_CLIENTS:
             original = (root / relative).read_bytes()
             for before, after in ((b"private_domain.mrs", b"wrong.mrs"), (b"behavior: domain", b"behavior: ipcidr") if relative.endswith(".yaml") else (b'"behavior": "domain"', b'"behavior": "ipcidr"'), (b"format: mrs", b"format: yaml") if relative.endswith(".yaml") else (b'"format": "mrs"', b'"format": "yaml"')):
                 reject(relative, original.replace(before, after, 1))

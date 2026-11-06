@@ -37,7 +37,20 @@ This file is mainly designed to proxy these following:
       <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_override/mihomo_override.js">JavaScript</a>
     </td>
   </tr>
+  <tr align="center">
+    <td>
+      <a href="mihomo_override_no_dns.js">mihomo_override_no_dns.js</a>
+    </td>
+    <td>
+      <a href="https://raw.githubusercontent.com/Lolicandae/blacklist-rules/main/client_conf/mihomo_override/mihomo_override_no_dns.js">JavaScript</a>
+    </td>
+    <td>
+      <a href="https://fastly.jsdelivr.net/gh/Lolicandae/blacklist-rules@main/client_conf/mihomo_override/mihomo_override_no_dns.js">JavaScript</a>
+    </td>
+  </tr>
 </table>
+
+`mihomo_override_no_dns.js` leaves the input `dns` section unchanged.
 
 ## About "Proxy Groups"
 
