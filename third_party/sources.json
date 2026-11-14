@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "9ab79e6ee3c4df2d0244b80a5c00588bf669920a2e21a7aa913e3866d678926f",
+    "sha256": "db27898091e4d9f7d68aca22d8d528fbf128948168259c868ecd38333b82504d",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -288,7 +288,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "4e35e0a942daa144945ff7bf4d786b6841d37994660ec7c97cc00778ca4b80c1",
+    "sha256": "db995b87804d2aacaeaa638fa8c0a8414dc646795e65d49f6ee915466b612a8b",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -387,7 +387,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "2da23ea7980af64b9506d2b769dd576508381dda1c2ccbc598e41724de4a925c",
+    "sha256": "21fee1a588ef81d49cb45714f7efa4d85c05af2b315443f6d55a4fbab6168391",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "0dcb30dfaa05c34d5df34aa606cb69020196fd86998b6d8a01b7f6f6e52f811c",
+    "sha256": "e198bce620b9a439ad0d9188b79d5812e15c0b6172a04e875fda4b205abd54f1",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -872,7 +872,7 @@
   },
   "surge_loyalsoldier_gfw": {
     "source": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt",
-    "sha256": "010d4889f58a130a2d4078ef40206e3c7a230739401f31212b8076af99c52e82",
+    "sha256": "81e0417dd19fa284bcce95d26203cf4ea31bd16a5519a12a4c9d14f5b50f762f",
     "kind": "DomainSet",
     "notices": "licenses/Loyalsoldier/LICENSE",
     "outputs": {
@@ -881,7 +881,7 @@
   },
   "surge_loyalsoldier_direct": {
     "source": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt",
-    "sha256": "3f18bf3a5003d25351b1a85e4860c7211ecdeb1033ae98ecb826696aad79e99b",
+    "sha256": "b4636468903cea0f0bf248ca5da9ad4d86c0b01a582a174e055bb9e3207ccc55",
     "kind": "DomainSet",
     "notices": "licenses/Loyalsoldier/LICENSE",
     "outputs": {
@@ -890,7 +890,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "0f164c92da24bb93a37254c9a09e20129ec5b6ca7c8d14147f0fc91941042f6e",
+    "sha256": "61bb7fc449185f02c3fca52f3c0d3027dc8d187d26ba4516a989bd879dddbc01",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
