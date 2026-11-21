@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "df85934870d71aab1cf190a15fd0fa896593c8eb389d16c824b9159f1dff28f3",
+    "sha256": "696afacf95351eecdfb8f0838caa96cd4b2ec0d22e268a05786a5809bf2929e6",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -150,7 +150,7 @@
   },
   "github": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.yaml",
-    "sha256": "d13336c90dca1e73ab42da19c865e2e7f116d5288d061bc1bf9597fbc411d623",
+    "sha256": "b30aa61d5476764f5194f2f4a4b566f5055882394e75291af2237366e2077f80",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -288,7 +288,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "f4fb41c7a35edc1a468a6b823c1fba10bd7fd33688e1333c882aee87caae0368",
+    "sha256": "2f1de03b54e966b079f5cca0c2df89a4fe760a7fa76a66f8d1220f9a6a52748c",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -387,7 +387,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "992da26f20b1ea13627a935316bf30938a4361a098244b4fe645d6789690b6e6",
+    "sha256": "21fee1a588ef81d49cb45714f7efa4d85c05af2b315443f6d55a4fbab6168391",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -453,7 +453,7 @@
   },
   "gfw": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.yaml",
-    "sha256": "8eb1a31e9db2c6017b2af62655c602bca0e7163e067da0d991de5ace9d4c931e",
+    "sha256": "da5d085f7ee2ca661471a4f622112efb8fbfd7203992382b871f91955effc0fe",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "370b2ee9daa1797814d1ffc7a488b73397ab1ff001164b7c9babebc79fc7f4d7",
+    "sha256": "8da0d97416b0f794573942e5b12f1075c496471746098268398e644fa1b28e3b",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -890,7 +890,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "34e5ddeb721845b5ae63eb71bb229e3cafc12abd2c12fd8a40a682c12f33d48e",
+    "sha256": "45c60d57ac5069cac083f36827e64d0ad0980419caa47e3357df3ec8e0ad3b12",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -1133,7 +1133,7 @@
   },
   "mrs_apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs",
-    "sha256": "19ad87e1de1add691f83fa40c52587364e0d9a6f8413e5c925b72752f09f089b",
+    "sha256": "a34b8c69e264fd518e56b614b91ee3018b9b9fc8d460e1421e08402a0cc74543",
     "kind": "MrsDomain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -1268,7 +1268,7 @@
   },
   "mrs_gfw": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs",
-    "sha256": "742799712ca3678279d54a5d025731c27f5debcb05b7c504444cf8c7ecc573fa",
+    "sha256": "84ef6af71dd987e3aa72991cb08935d0e6b3109b46086b1834bc67f6a784edfe",
     "kind": "MrsDomain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
