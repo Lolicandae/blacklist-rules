@@ -1,7 +1,7 @@
 {
   "adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt",
-    "sha256": "7599ce028c85e65d0f68d496f7cdee441a0e7309274242658308fb9e0e30991c",
+    "sha256": "fd4a9cea18db7cbc24010705de4df252c3edaa8c3b0b572f06387539581fbc03",
     "kind": "Domain",
     "notices": "NOTICE.md",
     "outputs": {
@@ -288,7 +288,7 @@
   },
   "apple": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
-    "sha256": "8f590f01858c7b0597aaf8f7f57dbf83131d5700e85aaaa88058ae39a1a3b6f6",
+    "sha256": "016e063567edb3dd51225e95a382f302144f688e9f84d47fd2fee59deb4c9a8e",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -387,7 +387,7 @@
   },
   "disney": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.yaml",
-    "sha256": "a116bc6b8b5dfbab333cd3b4eb7156b4c86883faf43d8a1d81c7652b5ddafef8",
+    "sha256": "8931d356f6fdd841a74cbc0bd19f32c1b8a2e97f27ab0e5dc2116b84d9c519d2",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -398,7 +398,7 @@
   },
   "bilibili": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.yaml",
-    "sha256": "d50190957169dab46966df8572bec3a8ab95714b220bf50ac5e8a86fb225a7df",
+    "sha256": "7fb044340e7dcc3ff2d4338dbf7b7725a80fed9ef8ae330b30172ea018ea0a63",
     "kind": "Domain",
     "notices": "licenses/MetaCubeX/LICENSE",
     "outputs": {
@@ -486,7 +486,7 @@
   },
   "surge_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list",
-    "sha256": "ebf58f0a67fcc8e3c0554e3158f68f82684f8451e1fec2a68da641248b07f1ff",
+    "sha256": "7ef5c2645e83d822242c5f94340cc5c6a7a3708f21a8fee13942a5982e243502",
     "kind": "SurgeSplit",
     "notices": "NOTICE.md",
     "outputs": {
@@ -890,7 +890,7 @@
   },
   "mrs_adrules": {
     "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules-mihomo.mrs",
-    "sha256": "289819df69e200572f15c4d16ec15a6c10c584e6f0b134b2ba2c9aa913e19211",
+    "sha256": "b4a8b434aca236a004692431b1a0791f8565bcc128a328f6afdf66dc1f05a8cb",
     "kind": "MrsDomain",
     "notices": "NOTICE.md",
     "outputs": {
